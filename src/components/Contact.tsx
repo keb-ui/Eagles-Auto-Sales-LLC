@@ -25,7 +25,7 @@ const Contact = () => {
                 <div className="flex items-center">
                   <Phone className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
-                    <p className="font-semibold">(555) 123-4567</p>
+                    <p className="font-semibold">(919) 414-4677</p>
                     <p className="text-gray-600 text-sm">Call or text anytime</p>
                   </div>
                 </div>
@@ -41,8 +41,8 @@ const Contact = () => {
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
-                    <p className="font-semibold">123 Main Street</p>
-                    <p className="text-gray-600 text-sm">Downtown, Your City 12345</p>
+                    <p className="font-semibold">701 N. Mangum St</p>
+                    <p className="text-gray-600 text-sm">Durham, NC 27701</p>
                   </div>
                 </div>
                 
@@ -75,7 +75,7 @@ const Contact = () => {
               <div className="space-y-3">
                 <Button variant="secondary" size="lg" className="w-full">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (555) 123-4567
+                  Call (919) 414-4677
                 </Button>
                 <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-white hover:text-blue-600">
                   <MessageCircle className="w-5 h-5 mr-2" />

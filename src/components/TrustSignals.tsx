@@ -1,5 +1,5 @@
 
-import { Shield, RotateCcw, CheckCircle, Star } from "lucide-react";
+import { Shield, CheckCircle, Star, Wrench } from "lucide-react";
 
 const TrustSignals = () => {
   const signals = [
@@ -9,9 +9,9 @@ const TrustSignals = () => {
       description: "Professional 20-point safety inspection on every vehicle"
     },
     {
-      icon: RotateCcw,
-      title: "7-Day Return Policy",
-      description: "Not happy? Return it within 7 days, no questions asked"
+      icon: Wrench,
+      title: "Quality Service",
+      description: "All cars are thoroughly cleaned and serviced before sale"
     },
     {
       icon: CheckCircle,
