@@ -1,8 +1,7 @@
-
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { CheckCircle, Phone, MessageCircle } from "lucide-react";
+import { CheckCircle, Phone, MessageCircle, ExternalLink } from "lucide-react";
 
 const cars = [
   {
@@ -15,7 +14,8 @@ const cars = [
     image: "/lovable-uploads/c163f994-fc32-477f-af22-9bee1afd1ce2.png",
     features: ["Clean Title", "Excellent Mechanical Condition", "NC Inspection Passed"],
     condition: "Excellent",
-    description: "This 2009 Toyota LE has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat, cruise control windows. Clean interior & has smooth ride. Clean car with clean title with 134k mileage it runs like new no issues. NC inspection passed and ready to go"
+    description: "This 2009 Toyota LE has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat, cruise control windows. Clean interior & has smooth ride. Clean car with clean title with 134k mileage it runs like new no issues. NC inspection passed and ready to go",
+    craigslistUrl: "https://raleigh.craigslist.org/ctd/d/raleigh-2009-toyota-camry-le/7857380414.html"
   },
   {
     id: 2,
@@ -94,6 +94,10 @@ const FeaturedCars = () => {
     window.open("https://www.facebook.com/EaglesAutoSalesLLC?mibextid=wwXIfr&rdid=U9bIqHdHEU1jIc7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19BPqFJfYx%2F%3Fmibextid%3DwwXIfr#", "_blank");
   };
 
+  const handleCraigslistView = (url: string) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
@@ -148,7 +152,7 @@ const FeaturedCars = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-2">
+                <div className="flex gap-2 mb-2">
                   <Button 
                     size="sm" 
                     className="flex-1 bg-blue-600 hover:bg-blue-700"
@@ -167,6 +171,18 @@ const FeaturedCars = () => {
                     Call
                   </Button>
                 </div>
+                
+                {car.craigslistUrl && (
+                  <Button 
+                    size="sm" 
+                    variant="secondary" 
+                    className="w-full"
+                    onClick={() => handleCraigslistView(car.craigslistUrl)}
+                  >
+                    <ExternalLink className="w-4 h-4 mr-1" />
+                    View on Craigslist
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}
