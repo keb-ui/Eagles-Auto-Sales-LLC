@@ -11,7 +11,7 @@ const Header = () => {
               <Car className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">Eagle Auto Sales</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Eagles Auto Sales</h1>
               <p className="text-sm text-gray-500 -mt-1">LLC</p>
             </div>
           </div>
