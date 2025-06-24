@@ -4,6 +4,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
+  const handlePhoneCall = () => {
+    window.location.href = "tel:+19194144677";
+  };
+
+  const handleFacebookMessage = () => {
+    window.open("https://www.facebook.com/EaglesAutoSalesLLC?mibextid=wwXIfr&rdid=U9bIqHdHEU1jIc7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19BPqFJfYx%2F%3Fmibextid%3DwwXIfr#", "_blank");
+  };
+
   return (
     <section className="py-16 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
@@ -73,11 +81,21 @@ const Contact = () => {
               </p>
               
               <div className="space-y-3">
-                <Button variant="secondary" size="lg" className="w-full">
+                <Button 
+                  variant="secondary" 
+                  size="lg" 
+                  className="w-full"
+                  onClick={handlePhoneCall}
+                >
                   <Phone className="w-5 h-5 mr-2" />
                   Call (919) 414-4677
                 </Button>
-                <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-white hover:text-blue-600">
+                <Button 
+                  variant="outline" 
+                  size="lg" 
+                  className="w-full border-white text-white hover:bg-white hover:text-blue-600"
+                  onClick={handleFacebookMessage}
+                >
                   <MessageCircle className="w-5 h-5 mr-2" />
                   Message on Facebook
                 </Button>
