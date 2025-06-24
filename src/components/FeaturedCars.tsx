@@ -7,6 +7,18 @@ import { CheckCircle, Phone, MessageCircle } from "lucide-react";
 const cars = [
   {
     id: 1,
+    make: "Toyota",
+    model: "Camry LE",
+    year: 2009,
+    price: 5600,
+    mileage: 134000,
+    image: "/lovable-uploads/c163f994-fc32-477f-af22-9bee1afd1ce2.png",
+    features: ["Clean Title", "Excellent Mechanical Condition", "NC Inspection Passed"],
+    condition: "Excellent",
+    description: "This 2009 Toyota LE has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat, cruise control windows. Clean interior & has smooth ride. Clean car with clean title with 134k mileage it runs like new no issues. NC inspection passed and ready to go"
+  },
+  {
+    id: 2,
     make: "Honda",
     model: "Civic",
     year: 2018,
@@ -17,7 +29,7 @@ const cars = [
     condition: "Excellent"
   },
   {
-    id: 2,
+    id: 3,
     make: "Toyota",
     model: "Camry",
     year: 2017,
@@ -28,7 +40,7 @@ const cars = [
     condition: "Very Good"
   },
   {
-    id: 3,
+    id: 4,
     make: "Ford",
     model: "Focus",
     year: 2019,
@@ -39,7 +51,7 @@ const cars = [
     condition: "Excellent"
   },
   {
-    id: 4,
+    id: 5,
     make: "Nissan",
     model: "Altima",
     year: 2016,
@@ -50,7 +62,7 @@ const cars = [
     condition: "Good"
   },
   {
-    id: 5,
+    id: 6,
     make: "Hyundai",
     model: "Elantra",
     year: 2020,
@@ -61,7 +73,7 @@ const cars = [
     condition: "Excellent"
   },
   {
-    id: 6,
+    id: 7,
     make: "Chevrolet",
     model: "Malibu",
     year: 2017,
@@ -74,6 +86,14 @@ const cars = [
 ];
 
 const FeaturedCars = () => {
+  const handlePhoneCall = () => {
+    window.location.href = "tel:+19194144677";
+  };
+
+  const handleFacebookMessage = () => {
+    window.open("https://www.facebook.com/EaglesAutoSalesLLC?mibextid=wwXIfr&rdid=U9bIqHdHEU1jIc7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19BPqFJfYx%2F%3Fmibextid%3DwwXIfr#", "_blank");
+  };
+
   return (
     <section className="py-16 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
@@ -129,11 +149,20 @@ const FeaturedCars = () => {
                 </div>
                 
                 <div className="flex gap-2">
-                  <Button size="sm" className="flex-1 bg-blue-600 hover:bg-blue-700">
+                  <Button 
+                    size="sm" 
+                    className="flex-1 bg-blue-600 hover:bg-blue-700"
+                    onClick={handleFacebookMessage}
+                  >
                     <MessageCircle className="w-4 h-4 mr-1" />
                     Message
                   </Button>
-                  <Button size="sm" variant="outline" className="flex-1">
+                  <Button 
+                    size="sm" 
+                    variant="outline" 
+                    className="flex-1"
+                    onClick={handlePhoneCall}
+                  >
                     <Phone className="w-4 h-4 mr-1" />
                     Call
                   </Button>
