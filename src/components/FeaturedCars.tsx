@@ -11,7 +11,7 @@ const cars = [
     year: 2009,
     price: 5600,
     mileage: 134000,
-    image: "/lovable-uploads/c163f994-fc32-477f-af22-9bee1afd1ce2.png",
+    image: "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
     features: ["Clean Title", "Excellent Mechanical Condition", "NC Inspection Passed"],
     condition: "Excellent",
     description: "This 2009 Toyota LE has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat, cruise control windows. Clean interior & has smooth ride. Clean car with clean title with 134k mileage it runs like new no issues. NC inspection passed and ready to go",
@@ -19,6 +19,18 @@ const cars = [
   },
   {
     id: 2,
+    make: "Toyota",
+    model: "Tundra SR5",
+    year: 2000,
+    price: 5500,
+    mileage: 241000,
+    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+    features: ["Clean Title", "Excellent Mechanical Condition", "NC Inspection Passed"],
+    condition: "Good",
+    description: "This 2000 Toyota Tundra has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat. 241k Miles. NC inspection passed and ready to go."
+  },
+  {
+    id: 3,
     make: "Honda",
     model: "Civic",
     year: 2018,
@@ -29,7 +41,7 @@ const cars = [
     condition: "Excellent"
   },
   {
-    id: 3,
+    id: 4,
     make: "Toyota",
     model: "Camry",
     year: 2017,
@@ -40,7 +52,7 @@ const cars = [
     condition: "Very Good"
   },
   {
-    id: 4,
+    id: 5,
     make: "Ford",
     model: "Focus",
     year: 2019,
@@ -51,7 +63,7 @@ const cars = [
     condition: "Excellent"
   },
   {
-    id: 5,
+    id: 6,
     make: "Nissan",
     model: "Altima",
     year: 2016,
@@ -62,7 +74,7 @@ const cars = [
     condition: "Good"
   },
   {
-    id: 6,
+    id: 7,
     make: "Hyundai",
     model: "Elantra",
     year: 2020,
@@ -73,7 +85,7 @@ const cars = [
     condition: "Excellent"
   },
   {
-    id: 7,
+    id: 8,
     make: "Chevrolet",
     model: "Malibu",
     year: 2017,
