@@ -33,8 +33,8 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
     window.open(url, "_blank");
   };
 
-  // Create array of images for carousel (using the same image multiple times as placeholder)
-  const carImages = [car.image, car.image, car.image];
+  // Use the images array if it exists, otherwise fall back to single image
+  const carImages = car.images || [car.image];
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
@@ -70,8 +70,12 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className="left-2" />
-              <CarouselNext className="right-2" />
+              {carImages.length > 1 && (
+                <>
+                  <CarouselPrevious className="left-2" />
+                  <CarouselNext className="right-2" />
+                </>
+              )}
             </Carousel>
           </div>
 
@@ -93,29 +97,29 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
               <div className="flex items-center">
                 <Car className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
-                  <p className="text-sm text-gray-500">Type</p>
-                  <p className="font-semibold">Sedan</p>
+                  <p className="text-sm text-gray-500">Engine</p>
+                  <p className="font-semibold">{car.engineType}</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Settings className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
                   <p className="text-sm text-gray-500">Transmission</p>
-                  <p className="font-semibold">Automatic</p>
+                  <p className="font-semibold">{car.transmission}</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Fuel className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
                   <p className="text-sm text-gray-500">Fuel Type</p>
-                  <p className="font-semibold">Gasoline</p>
+                  <p className="font-semibold">{car.fuelType}</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Gauge className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
-                  <p className="text-sm text-gray-500">Engine</p>
-                  <p className="font-semibold">4-Cylinder</p>
+                  <p className="text-sm text-gray-500">Fuel Economy</p>
+                  <p className="font-semibold">{car.fuelEconomy}</p>
                 </div>
               </div>
             </div>

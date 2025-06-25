@@ -7,6 +7,11 @@ export const cars = [
     year: 2009,
     price: 5600,
     mileage: 134000,
+    images: [
+      "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
+      "/lovable-uploads/b5716a01-0495-4524-815b-4ddbe24d884a.png",
+      "/lovable-uploads/0c7413b2-6886-4801-b77d-d23834d76952.png"
+    ],
     image: "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
     features: [
       "Clean Title", 
@@ -34,6 +39,9 @@ export const cars = [
     year: 2000,
     price: 5500,
     mileage: 241000,
+    images: [
+      "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
+    ],
     image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
     features: [
       "Clean Title", 
@@ -47,6 +55,7 @@ export const cars = [
     ],
     condition: "Good",
     description: "This 2000 Toyota Tundra has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat. 241k Miles. NC inspection passed and ready to go.",
+    craigslistUrl: "https://raleigh.craigslist.org/ctd/d/raleigh-2000-toyota-tundra-sr5/7857386739.html",
     engineType: "V8",
     transmission: "Automatic",
     fuelEconomy: "15 city / 20 highway",
