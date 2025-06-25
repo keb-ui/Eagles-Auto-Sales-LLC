@@ -1,0 +1,63 @@
+
+export const cars = [
+  {
+    id: 1,
+    make: "Toyota",
+    model: "Camry LE",
+    year: 2009,
+    price: 5600,
+    mileage: 134000,
+    image: "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
+    features: ["Clean Title", "Excellent Mechanical Condition", "NC Inspection Passed"],
+    condition: "Excellent",
+    description: "This 2009 Toyota LE has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat, cruise control windows. Clean interior & has smooth ride. Clean car with clean title with 134k mileage it runs like new no issues. NC inspection passed and ready to go",
+    craigslistUrl: "https://raleigh.craigslist.org/ctd/d/raleigh-2009-toyota-camry-le/7857380414.html"
+  },
+  {
+    id: 2,
+    make: "Toyota",
+    model: "Tundra SR5",
+    year: 2000,
+    price: 5500,
+    mileage: 241000,
+    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+    features: ["Clean Title", "Excellent Mechanical Condition", "NC Inspection Passed"],
+    condition: "Good",
+    description: "This 2000 Toyota Tundra has been is in excellent mechanical condition. Has clean title and clean service records. Has a Automatic Transmission. All the features are in great working condition such as A/C heat. 241k Miles. NC inspection passed and ready to go."
+  },
+  {
+    id: 3,
+    make: "Honda",
+    model: "Civic",
+    year: 2018,
+    price: 14500,
+    mileage: 68000,
+    image: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=400&h=300&fit=crop",
+    features: ["Clean Title", "Recent Oil Change", "New Tires"],
+    condition: "Excellent"
+  },
+  {
+    id: 4,
+    make: "Toyota",
+    model: "Camry",
+    year: 2017,
+    price: 16200,
+    mileage: 72000,
+    image: "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=400&h=300&fit=crop",
+    features: ["Single Owner", "Service Records", "Non-Smoker"],
+    condition: "Very Good"
+  },
+  {
+    id: 5,
+    make: "Nissan",
+    model: "Altima",
+    year: 2016,
+    price: 12900,
+    mileage: 78000,
+    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=300&fit=crop",
+    features: ["Bluetooth", "Backup Camera", "Good Condition"],
+    condition: "Good"
+  }
+];
+
+export type Car = typeof cars[0];
