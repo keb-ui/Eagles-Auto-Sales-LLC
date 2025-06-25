@@ -40,9 +40,9 @@ export const cars = [
     price: 5500,
     mileage: 241000,
     images: [
-      "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop"
+      "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png"
     ],
-    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
+    image: "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png",
     features: [
       "Clean Title", 
       "Excellent Mechanical Condition", 
