@@ -1,4 +1,3 @@
-
 export const cars = [
   {
     id: 1,
@@ -40,7 +39,10 @@ export const cars = [
     price: 5500,
     mileage: 241000,
     images: [
-      "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png"
+      "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png",
+      "/lovable-uploads/53483910-be76-4071-ab5d-234f4cb3c7fd.png",
+      "/lovable-uploads/14a1ef5f-2874-4682-bf8d-b058c45a9a7d.png",
+      "/lovable-uploads/16c4ce2b-0281-4745-897a-95cb87eab744.png"
     ],
     image: "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png",
     features: [
