@@ -1,3 +1,4 @@
+
 export const cars = [
   {
     id: 1,
@@ -9,7 +10,12 @@ export const cars = [
     images: [
       "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
       "/lovable-uploads/b5716a01-0495-4524-815b-4ddbe24d884a.png",
-      "/lovable-uploads/0c7413b2-6886-4801-b77d-d23834d76952.png"
+      "/lovable-uploads/0c7413b2-6886-4801-b77d-d23834d76952.png",
+      "/lovable-uploads/6923c175-46b0-43d1-95f1-49775391d4d2.png",
+      "/lovable-uploads/d6ad3405-318e-4d5f-b2cf-54c5e9677365.png",
+      "/lovable-uploads/7d42d6e3-3ab4-4b08-bddb-b494101c9268.png",
+      "/lovable-uploads/b67a8835-6ef8-4fd0-ac06-b396f42051f2.png",
+      "/lovable-uploads/a91fa663-fdb7-48dc-8542-989239487e38.png"
     ],
     image: "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
     features: [
