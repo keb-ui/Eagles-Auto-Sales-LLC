@@ -1,3 +1,4 @@
+
 export const cars = [
   {
     id: 1,
@@ -152,7 +153,7 @@ export const cars = [
     year: 2014,
     price: 9800,
     mileage: 196733,
-    image: "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop",
+    image: "https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?w=400&h=300&fit=crop",
     features: [
       "Clean Title", 
       "8-Passenger Seating", 
@@ -165,7 +166,7 @@ export const cars = [
       "Dual Zone Climate"
     ],
     condition: "Good",
-    description: "Reliable family van with plenty of space for passengers and cargo. Perfect for families or commercial use.",
+    description: "Spacious and reliable family minivan with black exterior and gray interior. Perfect for large families or commercial use with 8-passenger seating and convenient power sliding doors. Well-maintained with clean title and ready for years of dependable service.",
     engineType: "V6",
     transmission: "Automatic",
     fuelEconomy: "18 city / 25 highway",
@@ -191,7 +192,7 @@ export const cars = [
       "Sport Seats"
     ],
     condition: "Excellent",
-    description: "Low mileage Corolla SE with sport package and modern safety features. Excellent fuel economy and reliability.",
+    description: "Low mileage Corolla SE with sporty white exterior and sleek black interior. Features the SE sport package with enhanced styling and performance. Loaded with modern safety features and technology including Toyota Safety Sense 2.0. Excellent fuel economy and legendary Toyota reliability make this perfect for daily commuting.",
     engineType: "4-Cylinder",
     transmission: "CVT",
     fuelEconomy: "31 city / 40 highway",
@@ -217,7 +218,7 @@ export const cars = [
       "Heavy Duty Suspension"
     ],
     condition: "Good",
-    description: "Reliable work truck perfect for hauling and towing. Well-maintained with solid mechanical condition.",
+    description: "Reliable work truck with clean white exterior and durable gray interior. Built for the job site with work truck package and heavy-duty towing capabilities. Features protective bedliner and heavy-duty suspension. Well-maintained and ready for commercial or personal use with proven Ford F-150 durability.",
     engineType: "V6",
     transmission: "Automatic",
     fuelEconomy: "18 city / 23 highway",
@@ -243,7 +244,7 @@ export const cars = [
       "Roof Rails"
     ],
     condition: "Good",
-    description: "Well-equipped CR-V with leather interior and AWD capability. Great for all weather conditions.",
+    description: "Well-equipped CR-V EX-L with premium white exterior and luxurious gray leather interior. Features all-wheel drive capability for all-weather confidence and a panoramic sunroof for open-air driving. Heated leather seats and premium audio system provide comfort and entertainment. Honda's renowned reliability and AWD versatility make this perfect for any adventure.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "21 city / 28 highway",
@@ -269,7 +270,7 @@ export const cars = [
       "Lane Keep Assist"
     ],
     condition: "Very Good",
-    description: "Recent model Camry with modern safety features and excellent reliability. Well-maintained with service records.",
+    description: "Stylish black Camry LE with sophisticated black interior. Features the complete Toyota Safety Sense suite including lane keep assist and automatic emergency braking. Modern technology with backup camera and Bluetooth connectivity. Well-maintained with excellent reliability record and smooth, comfortable ride quality.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "28 city / 39 highway",
@@ -295,7 +296,7 @@ export const cars = [
       "Keyless Entry"
     ],
     condition: "Excellent",
-    description: "Nearly new Corolla with low mileage and full Toyota Safety Sense suite. Excellent fuel economy and reliability.",
+    description: "Nearly new Corolla LE with attractive gray exterior and clean black interior. Equipped with Toyota Safety Sense 2.0 for maximum safety and peace of mind. Modern conveniences include Apple CarPlay, LED headlights, and keyless entry. Outstanding fuel economy and Toyota's legendary reliability make this an excellent choice for efficient, worry-free transportation.",
     engineType: "4-Cylinder",
     transmission: "CVT",
     fuelEconomy: "31 city / 40 highway",
@@ -321,7 +322,7 @@ export const cars = [
       "Roof Rails"
     ],
     condition: "Very Good",
-    description: "Well-maintained CR-V with AWD and lower mileage for the year. Excellent condition inside and out.",
+    description: "Exceptionally well-maintained CR-V EX with striking blue exterior and comfortable gray interior. Notably lower mileage for the year makes this a standout value. All-wheel drive provides confident handling in all conditions, while the sunroof adds an element of fun to daily driving. Honda's proven reliability and excellent condition make this SUV ready for many more years of dependable service.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "21 city / 28 highway",
