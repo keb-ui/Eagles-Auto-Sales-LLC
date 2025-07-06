@@ -4,7 +4,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { CheckCircle, Phone, MessageCircle, Calendar, ExternalLink, Car, Gauge, Fuel, Settings } from "lucide-react";
-import { Car as CarType } from "@/data/carsData";
+import { Car as CarType } from "@/hooks/useCars";
 
 interface CarDetailModalProps {
   car: CarType | null;
@@ -98,7 +98,7 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                 <Car className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
                   <p className="text-sm text-gray-500">Engine</p>
-                  <p className="font-semibold">{car.engineType}</p>
+                  <p className="font-semibold">{car.engine_type}</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -112,14 +112,14 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                 <Fuel className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
                   <p className="text-sm text-gray-500">Fuel Type</p>
-                  <p className="font-semibold">{car.fuelType}</p>
+                  <p className="font-semibold">{car.fuel_type}</p>
                 </div>
               </div>
               <div className="flex items-center">
                 <Gauge className="w-5 h-5 mr-3 text-gray-500" />
                 <div>
                   <p className="text-sm text-gray-500">Fuel Economy</p>
-                  <p className="font-semibold">{car.fuelEconomy}</p>
+                  <p className="font-semibold">{car.fuel_economy}</p>
                 </div>
               </div>
             </div>
@@ -177,12 +177,12 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                 </Button>
               </div>
               
-              {car.craigslistUrl && (
+              {car.craigslist_url && (
                 <Button 
                   size="lg" 
                   variant="secondary" 
                   className="w-full"
-                  onClick={() => handleCraigslistView(car.craigslistUrl)}
+                  onClick={() => handleCraigslistView(car.craigslist_url)}
                 >
                   <ExternalLink className="w-5 h-5 mr-2" />
                   View on Craigslist
