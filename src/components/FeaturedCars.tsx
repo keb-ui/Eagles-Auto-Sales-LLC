@@ -1,11 +1,14 @@
+
 import { useState } from 'react';
 import CarGridCard from './CarGridCard';
 import CarDetailModal from './CarDetailModal';
-import { cars, Car } from '@/data/carsData';
+import { useCars, type Car } from '@/hooks/useCars';
+import { Loader2 } from 'lucide-react';
 
 const FeaturedCars = () => {
   const [selectedCar, setSelectedCar] = useState<Car | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const { data: cars, isLoading, error } = useCars();
 
   const handleCarClick = (car: Car) => {
     setSelectedCar(car);
@@ -16,6 +19,50 @@ const FeaturedCars = () => {
     setIsModalOpen(false);
     setSelectedCar(null);
   };
+
+  if (isLoading) {
+    return (
+      <section id="featured-cars" className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Current Inventory
+            </h2>
+            <p className="text-lg text-gray-600">
+              Every car is inspected, cleaned, and ready to drive home today
+            </p>
+          </div>
+          <div className="flex justify-center items-center py-20">
+            <Loader2 className="h-8 w-8 animate-spin text-blue-600" />
+            <span className="ml-2 text-gray-600">Loading inventory...</span>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (error) {
+    return (
+      <section id="featured-cars" className="py-16 px-4 bg-gray-50">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Our Current Inventory
+            </h2>
+            <p className="text-lg text-gray-600">
+              Every car is inspected, cleaned, and ready to drive home today
+            </p>
+          </div>
+          <div className="flex justify-center items-center py-20">
+            <div className="text-center">
+              <p className="text-red-600 text-lg">Error loading inventory</p>
+              <p className="text-gray-500 mt-2">Please try refreshing the page</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
 
   return (
     <section id="featured-cars" className="py-16 px-4 bg-gray-50">
@@ -30,7 +77,7 @@ const FeaturedCars = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {cars.map((car, index) => (
+          {cars?.map((car, index) => (
             <div 
               key={car.id}
               className="animate-fade-in"

@@ -9,13 +9,152 @@ export type Json =
 export type Database = {
   public: {
     Tables: {
-      [_ in never]: never
+      cars: {
+        Row: {
+          condition: string | null
+          craigslist_url: string | null
+          created_at: string
+          description: string | null
+          engine_type: string | null
+          features: string[] | null
+          fuel_economy: string | null
+          fuel_type: string | null
+          id: string
+          image: string | null
+          images: string[] | null
+          make: string
+          mileage: number
+          model: string
+          price: number
+          transmission: string | null
+          updated_at: string
+          year: number
+        }
+        Insert: {
+          condition?: string | null
+          craigslist_url?: string | null
+          created_at?: string
+          description?: string | null
+          engine_type?: string | null
+          features?: string[] | null
+          fuel_economy?: string | null
+          fuel_type?: string | null
+          id?: string
+          image?: string | null
+          images?: string[] | null
+          make: string
+          mileage: number
+          model: string
+          price: number
+          transmission?: string | null
+          updated_at?: string
+          year: number
+        }
+        Update: {
+          condition?: string | null
+          craigslist_url?: string | null
+          created_at?: string
+          description?: string | null
+          engine_type?: string | null
+          features?: string[] | null
+          fuel_economy?: string | null
+          fuel_type?: string | null
+          id?: string
+          image?: string | null
+          images?: string[] | null
+          make?: string
+          mileage?: number
+          model?: string
+          price?: number
+          transmission?: string | null
+          updated_at?: string
+          year?: number
+        }
+        Relationships: []
+      }
+      inquiries: {
+        Row: {
+          car_id: string
+          created_at: string
+          email: string
+          id: string
+          message: string
+          name: string
+          phone: string | null
+          status: string | null
+          updated_at: string
+          user_id: string | null
+        }
+        Insert: {
+          car_id: string
+          created_at?: string
+          email: string
+          id?: string
+          message: string
+          name: string
+          phone?: string | null
+          status?: string | null
+          updated_at?: string
+          user_id?: string | null
+        }
+        Update: {
+          car_id?: string
+          created_at?: string
+          email?: string
+          id?: string
+          message?: string
+          name?: string
+          phone?: string | null
+          status?: string | null
+          updated_at?: string
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "inquiries_car_id_fkey"
+            columns: ["car_id"]
+            isOneToOne: false
+            referencedRelation: "cars"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      profiles: {
+        Row: {
+          created_at: string
+          email: string | null
+          full_name: string | null
+          id: string
+          role: string | null
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          email?: string | null
+          full_name?: string | null
+          id: string
+          role?: string | null
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          email?: string | null
+          full_name?: string | null
+          id?: string
+          role?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      get_user_role: {
+        Args: { user_id: string }
+        Returns: string
+      }
     }
     Enums: {
       [_ in never]: never
