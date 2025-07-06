@@ -1,9 +1,9 @@
 
 import { Badge } from "@/components/ui/badge";
-import type { Car } from "@/hooks/useCars";
+import { Car as CarType } from "@/data/carsData";
 
 interface CarGridCardProps {
-  car: Car;
+  car: CarType;
   onClick: () => void;
 }
 
@@ -14,17 +14,11 @@ const CarGridCard = ({ car, onClick }: CarGridCardProps) => {
       onClick={onClick}
     >
       <div className="relative">
-        {car.image ? (
-          <img 
-            src={car.image} 
-            alt={`${car.year} ${car.make} ${car.model}`}
-            className="w-full h-48 object-cover transition-transform duration-300"
-          />
-        ) : (
-          <div className="w-full h-48 bg-gray-200 flex items-center justify-center">
-            <span className="text-gray-500">No Image Available</span>
-          </div>
-        )}
+        <img 
+          src={car.image} 
+          alt={`${car.year} ${car.make} ${car.model}`}
+          className="w-full h-48 object-cover transition-transform duration-300"
+        />
         <Badge 
           className={`absolute top-3 right-3 text-sm px-2 py-1 ${
             car.condition === 'Excellent' ? 'bg-green-500' : 
@@ -42,7 +36,7 @@ const CarGridCard = ({ car, onClick }: CarGridCardProps) => {
         
         <div className="flex justify-between items-center mb-3">
           <span className="text-2xl font-bold text-blue-600">
-            ${Number(car.price).toLocaleString()}
+            ${car.price.toLocaleString()}
           </span>
           <span className="text-gray-600">
             {car.mileage.toLocaleString()} mi
