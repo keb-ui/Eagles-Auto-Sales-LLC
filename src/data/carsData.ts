@@ -81,6 +81,7 @@ export const cars = [
     year: 2018,
     price: 14500,
     mileage: 68000,
+    image: "https://images.unsplash.com/photo-1619976215249-4a5e0a938dba?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "Recent Oil Change", 
@@ -104,6 +105,7 @@ export const cars = [
     year: 2017,
     price: 16200,
     mileage: 72000,
+    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&h=600&fit=crop",
     features: [
       "Single Owner", 
       "Service Records", 
@@ -127,6 +129,7 @@ export const cars = [
     year: 2016,
     price: 12900,
     mileage: 78000,
+    image: "https://images.unsplash.com/photo-1549927681-0b673b922180?w=800&h=600&fit=crop",
     features: [
       "Bluetooth", 
       "Backup Camera", 
@@ -150,6 +153,7 @@ export const cars = [
     year: 2014,
     price: 9800,
     mileage: 196733,
+    image: "https://images.unsplash.com/photo-1600978651423-34b9ca25cc79?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "3rd Row Seating", 
@@ -176,6 +180,18 @@ export const cars = [
     year: 2018,
     price: 16800,
     mileage: 43415,
+    images: [
+      "/lovable-uploads/9440146b-45eb-469f-8893-779687683fd0.png",
+      "/lovable-uploads/f68b6c45-2566-4286-b01f-bb56d056f190.png",
+      "/lovable-uploads/f5d9483b-17c7-4d08-aed6-5481df9b22b3.png",
+      "/lovable-uploads/c40e1307-dd8a-4c57-9824-89f8216019f5.png",
+      "/lovable-uploads/dfa11873-ec78-40bf-9740-95ef58577e97.png",
+      "/lovable-uploads/c8a1327a-901a-4888-9f6a-11991706393c.png",
+      "/lovable-uploads/fb39a388-6f10-4c3f-8164-8d1ef680bb69.png",
+      "/lovable-uploads/a51e8cdb-6374-439a-9046-aad246cfa6f9.png",
+      "/lovable-uploads/180f2680-e00a-43e2-804e-4aaf127330c0.png"
+    ],
+    image: "/lovable-uploads/9440146b-45eb-469f-8893-779687683fd0.png",
     features: [
       "Clean Title", 
       "Sport Package", 
@@ -202,6 +218,7 @@ export const cars = [
     year: 2015,
     price: 18500,
     mileage: 170253,
+    image: "https://images.unsplash.com/photo-1637589397653-aff287de2b94?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "SuperCab (Extended Cab)", 
@@ -228,6 +245,7 @@ export const cars = [
     year: 2009,
     price: 8900,
     mileage: 189100,
+    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "All-Wheel Drive", 
@@ -254,6 +272,7 @@ export const cars = [
     year: 2018,
     price: 17200,
     mileage: 167436,
+    image: "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "Backup Camera", 
@@ -279,6 +298,7 @@ export const cars = [
     year: 2019,
     price: 15900,
     mileage: 112369,
+    image: "https://images.unsplash.com/photo-1619976215249-4a5e0a938dba?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "Backup Camera", 
@@ -304,6 +324,7 @@ export const cars = [
     year: 2009,
     price: 9200,
     mileage: 120931,
+    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=800&h=600&fit=crop",
     features: [
       "Clean Title", 
       "All-Wheel Drive", 
