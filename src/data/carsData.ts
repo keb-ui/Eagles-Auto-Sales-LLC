@@ -1,4 +1,3 @@
-
 export const cars = [
   {
     id: 1,
@@ -17,7 +16,7 @@ export const cars = [
       "/lovable-uploads/b67a8835-6ef8-4fd0-ac06-b396f42051f2.png",
       "/lovable-uploads/a91fa663-fdb7-48dc-8542-989239487e38.png"
     ],
-    image: "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
+    image: "/lovable-uploads/b5716a01-0495-4524-815b-4ddbe24d884a.png",
     features: [
       "Clean Title", 
       "Excellent Mechanical Condition", 
@@ -55,7 +54,7 @@ export const cars = [
       "/lovable-uploads/2f8e884d-3d4f-4150-8ebd-547c2777a900.png",
       "/lovable-uploads/ec5a9aa0-53d2-4da0-ad8d-5b228be48324.png"
     ],
-    image: "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png",
+    image: "/lovable-uploads/53483910-be76-4071-ab5d-234f4cb3c7fd.png",
     features: [
       "Clean Title", 
       "Excellent Mechanical Condition", 
