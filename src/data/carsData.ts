@@ -8,7 +8,7 @@ export const cars = [
     price: 5600,
     mileage: 134000,
     images: [
-      "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
+      "/lovable-uploads/7f84079d-2377-404f-b113-19eb0fac365e.png",
       "/lovable-uploads/b5716a01-0495-4524-815b-4ddbe24d884a.png",
       "/lovable-uploads/0c7413b2-6886-4801-b77d-d23834d76952.png",
       "/lovable-uploads/6923c175-46b0-43d1-95f1-49775391d4d2.png",
@@ -17,7 +17,7 @@ export const cars = [
       "/lovable-uploads/b67a8835-6ef8-4fd0-ac06-b396f42051f2.png",
       "/lovable-uploads/a91fa663-fdb7-48dc-8542-989239487e38.png"
     ],
-    image: "/lovable-uploads/ba47ede7-f2e5-4576-9fb7-444bdc87a6da.png",
+    image: "/lovable-uploads/7f84079d-2377-404f-b113-19eb0fac365e.png",
     features: [
       "Clean Title", 
       "Excellent Mechanical Condition", 
@@ -45,7 +45,7 @@ export const cars = [
     price: 5500,
     mileage: 241000,
     images: [
-      "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png",
+      "/lovable-uploads/a38645ac-2816-47e1-8ca0-d24391f406ec.png",
       "/lovable-uploads/53483910-be76-4071-ab5d-234f4cb3c7fd.png",
       "/lovable-uploads/14a1ef5f-2874-4682-bf8d-b058c45a9a7d.png",
       "/lovable-uploads/16c4ce2b-0281-4745-897a-95cb87eab744.png",
@@ -55,7 +55,7 @@ export const cars = [
       "/lovable-uploads/2f8e884d-3d4f-4150-8ebd-547c2777a900.png",
       "/lovable-uploads/ec5a9aa0-53d2-4da0-ad8d-5b228be48324.png"
     ],
-    image: "/lovable-uploads/58803bd9-482e-45b8-a1e7-9681103b5b57.png",
+    image: "/lovable-uploads/a38645ac-2816-47e1-8ca0-d24391f406ec.png",
     features: [
       "Clean Title", 
       "Excellent Mechanical Condition", 
