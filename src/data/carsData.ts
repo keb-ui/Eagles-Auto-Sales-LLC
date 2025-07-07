@@ -176,6 +176,18 @@ export const cars = [
     year: 2018,
     price: 16800,
     mileage: 43415,
+    images: [
+      "/lovable-uploads/dbc12453-c1c3-4aaa-a18a-134e174da217.png",
+      "/lovable-uploads/d077f25b-27a9-4a35-b70d-9a305aeee6f2.png",
+      "/lovable-uploads/32ec675a-983b-4c4f-b7d3-36b7f2da802c.png",
+      "/lovable-uploads/aa77c68a-700d-4900-b4d9-31045e2ccb51.png",
+      "/lovable-uploads/326d7e9f-0475-4412-94dd-e15cb5b60197.png",
+      "/lovable-uploads/903ec26e-a70c-4782-a90d-660304fd494b.png",
+      "/lovable-uploads/9493c6d4-7c2d-482f-b87b-5dcf1f7640c0.png",
+      "/lovable-uploads/f9be2b78-6807-4f5a-9bbb-2a53650de999.png",
+      "/lovable-uploads/a6499917-5cfd-4f9f-90b0-eac80abdc758.png"
+    ],
+    image: "/lovable-uploads/dbc12453-c1c3-4aaa-a18a-134e174da217.png",
     features: [
       "Clean Title", 
       "Sport Package", 
