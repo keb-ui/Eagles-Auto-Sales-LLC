@@ -279,6 +279,16 @@ export const cars = [
     year: 2018,
     price: 17200,
     mileage: 167436,
+    images: [
+      "/lovable-uploads/27e9b3aa-7e10-42e8-8220-1b62351a885b.png",
+      "/lovable-uploads/d1f9af68-7f65-41ab-9904-7dbe38bd1077.png",
+      "/lovable-uploads/f9fde3cb-1367-4736-bd85-374fb09a4c8c.png",
+      "/lovable-uploads/006dba35-439a-496a-862c-91636567dab6.png",
+      "/lovable-uploads/e3851c17-9493-41ac-bacc-c80672183630.png",
+      "/lovable-uploads/fa270b4b-adf0-46b1-9182-e7a5875a5559.png",
+      "/lovable-uploads/3305825e-dc5b-4785-8922-3066ec429260.png"
+    ],
+    image: "/lovable-uploads/27e9b3aa-7e10-42e8-8220-1b62351a885b.png",
     features: [
       "Clean Title", 
       "Backup Camera", 
