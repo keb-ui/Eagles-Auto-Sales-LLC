@@ -221,7 +221,14 @@ export const cars = [
       "/lovable-uploads/e78345dc-e57a-49ca-8f26-1aa16ecc5d58.png",
       "/lovable-uploads/ee4a41f5-c31b-46ba-8726-29a49790d2b1.png",
       "/lovable-uploads/da2cd5c2-440f-4095-886a-f0961c439ef8.png",
-      "/lovable-uploads/260d0ccb-6dd7-4b11-b616-904786a1e767.png"
+      "/lovable-uploads/260d0ccb-6dd7-4b11-b616-904786a1e767.png",
+      "/lovable-uploads/8832ca5e-a0a0-49df-94a6-db8cf4230324.png",
+      "/lovable-uploads/1800a7c3-072c-4739-a04d-5bf576a5a6f6.png",
+      "/lovable-uploads/b64e0122-2086-405e-a5c4-ff12f943df66.png",
+      "/lovable-uploads/c6762310-159c-4972-b822-be1ccb6a70f3.png",
+      "/lovable-uploads/480914ac-479f-4882-b46d-a5673c43c2a1.png",
+      "/lovable-uploads/e58661ca-5b58-4f28-9955-199f01b4c618.png",
+      "/lovable-uploads/7cdf6725-452c-4413-a447-08a05916232f.png"
     ],
     image: "/lovable-uploads/ae272170-6fe2-457c-9527-22c36be1aa8b.png",
     features: [
