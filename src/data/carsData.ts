@@ -214,6 +214,16 @@ export const cars = [
     year: 2015,
     price: 18500,
     mileage: 170253,
+    images: [
+      "/lovable-uploads/ae272170-6fe2-457c-9527-22c36be1aa8b.png",
+      "/lovable-uploads/a9a72eba-d364-41ae-a261-4d841c9bf9aa.png",
+      "/lovable-uploads/0195f35f-b3c6-4d06-a2eb-ad754acff42a.png",
+      "/lovable-uploads/e78345dc-e57a-49ca-8f26-1aa16ecc5d58.png",
+      "/lovable-uploads/ee4a41f5-c31b-46ba-8726-29a49790d2b1.png",
+      "/lovable-uploads/da2cd5c2-440f-4095-886a-f0961c439ef8.png",
+      "/lovable-uploads/260d0ccb-6dd7-4b11-b616-904786a1e767.png"
+    ],
+    image: "/lovable-uploads/ae272170-6fe2-457c-9527-22c36be1aa8b.png",
     features: [
       "Clean Title", 
       "SuperCab (Extended Cab)", 
@@ -228,6 +238,7 @@ export const cars = [
     ],
     condition: "Good",
     description: "This 2015 Ford F-150 XL is a reliable work truck with a powerful V8 engine and SuperCab configuration for extra cabin space. It includes a tow package, bedliner, and cruise control. Well maintained and mechanically strong, it's ready for job sites or daily utility use.",
+    craigslistUrl: "https://raleigh.craigslist.org/ctd/d/raleigh-2015-ford-f-150-xl/7857380415.html",
     engineType: "V8",
     transmission: "Automatic",
     fuelEconomy: "18 city / 23 highway",
