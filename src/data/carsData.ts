@@ -362,6 +362,14 @@ export const cars = [
     year: 2009,
     price: 9200,
     mileage: 120931,
+    images: [
+      "/lovable-uploads/48b1f1b9-c6a7-49f3-8490-0a2102990bc3.png",
+      "/lovable-uploads/c40a7864-9dda-47cb-aab8-005e74e193b5.png",
+      "/lovable-uploads/a0b70125-5fe9-4bda-9688-f243578c7425.png",
+      "/lovable-uploads/4e4c6702-4767-4d9d-aac3-883608ee96a9.png",
+      "/lovable-uploads/323c74e1-e63f-440d-8bc4-6125d920a7a3.png"
+    ],
+    image: "/lovable-uploads/48b1f1b9-c6a7-49f3-8490-0a2102990bc3.png",
     features: [
       "Clean Title", 
       "All-Wheel Drive", 
