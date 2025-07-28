@@ -150,6 +150,15 @@ export const cars = [
     year: 2014,
     price: 9800,
     mileage: 196733,
+    images: [
+      "/lovable-uploads/d4b86362-8f01-4ffc-a203-17f53a932bf3.png",
+      "/lovable-uploads/8391f9c2-80d8-4401-8060-7873081c8d22.png",
+      "/lovable-uploads/f88312d9-89dc-4f8c-8467-700495896bc2.png",
+      "/lovable-uploads/94b02ee2-b0ea-4c1d-93a7-73a0cf491ca8.png",
+      "/lovable-uploads/92d67043-7569-476b-9fba-0741889a3947.png",
+      "/lovable-uploads/a1daaf50-070e-4230-a3f7-14f079b147b3.png"
+    ],
+    image: "/lovable-uploads/d4b86362-8f01-4ffc-a203-17f53a932bf3.png",
     features: [
       "Clean Title", 
       "3rd Row Seating", 
