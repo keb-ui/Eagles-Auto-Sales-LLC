@@ -361,7 +361,7 @@ export const cars = [
     model: "CR-V EX",
     year: 2009,
     price: 9200,
-    mileage: 120931,
+    mileage: 189100,
     images: [
       "/lovable-uploads/48b1f1b9-c6a7-49f3-8490-0a2102990bc3.png",
       "/lovable-uploads/c40a7864-9dda-47cb-aab8-005e74e193b5.png",
@@ -373,7 +373,10 @@ export const cars = [
       "/lovable-uploads/0681e9f0-aa49-49d5-9b7b-8492605a62fe.png",
       "/lovable-uploads/81c8c9d3-1298-488b-9551-36472170ddef.png",
       "/lovable-uploads/752a578c-ea06-4c52-bc60-dcb98a77e520.png",
-      "/lovable-uploads/4526daa9-f9bb-46c9-8f28-da5fba2bf8a3.png"
+      "/lovable-uploads/4526daa9-f9bb-46c9-8f28-da5fba2bf8a3.png",
+      "/lovable-uploads/53bc2142-09cd-4fe1-8665-5c48b3a0ac8b.png",
+      "/lovable-uploads/668b77a1-f9a5-4933-b673-86f84191dcd5.png",
+      "/lovable-uploads/24367ecc-3229-469f-bfb6-1e9c3f1a54e8.png"
     ],
     image: "/lovable-uploads/48b1f1b9-c6a7-49f3-8490-0a2102990bc3.png",
     features: [
@@ -387,7 +390,7 @@ export const cars = [
       "AM/FM/CD Audio",
       "NC Inspection Passed"
     ],
-    condition: "Very Good",
+    condition: "Good",
     description: "This 2009 Honda CR-V EX AWD is a practical and dependable SUV with lower mileage for its age. It includes all-wheel drive, a sunroof, alloy wheels, and cruise control. Smooth driving, clean interior, and great overall condition with a clean title and recent NC inspection.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
