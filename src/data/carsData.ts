@@ -322,8 +322,15 @@ export const cars = [
     year: 2011,
     price: 4600,
     mileage: 264953,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/00db373c-5175-41af-b438-614b79cec42d.png",
+      "/lovable-uploads/1ffaa770-54df-4dce-bb79-03af3f8cf6c3.png",
+      "/lovable-uploads/80f8715c-4f74-4c4b-afc3-114f6d7c1a74.png",
+      "/lovable-uploads/6e5f890b-6560-4d96-983e-7886903ea754.png",
+      "/lovable-uploads/05668c14-cfa5-405b-b28c-17229fbf9f25.png",
+      "/lovable-uploads/e280b4ce-559c-459a-8c7f-55e5f1cee7df.png"
+    ],
+    image: "/lovable-uploads/00db373c-5175-41af-b438-614b79cec42d.png",
     features: [
       "Clean Title",
       "Reliable Daily Driver",
