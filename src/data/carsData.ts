@@ -314,6 +314,78 @@ export const cars = [
     transmission: "Automatic",
     fuelEconomy: "21 city / 28 highway",
     fuelType: "Gasoline"
+  },
+  {
+    id: 13,
+    make: "Toyota",
+    model: "Corolla LE",
+    year: 2011,
+    price: 4600,
+    mileage: 264953,
+    images: ["/placeholder.svg"],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "Reliable Daily Driver",
+      "Power Windows & Locks",
+      "Cruise Control",
+      "Cold A/C",
+      "Automatic Transmission"
+    ],
+    condition: "Good",
+    description: "2011 Toyota Corolla LE with 264,953 miles. Exterior: Black | Interior: Beige. Runs and drives well for mileage; great commuter.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic",
+    fuelEconomy: "26 city / 34 highway",
+    fuelType: "Gasoline"
+  },
+  {
+    id: 14,
+    make: "Toyota",
+    model: "Corolla LE",
+    year: 2012,
+    price: 8900,
+    mileage: 112596,
+    images: ["/placeholder.svg"],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "Bluetooth",
+      "Backup Camera (aftermarket)",
+      "Power Windows & Locks",
+      "Cruise Control",
+      "Cold A/C"
+    ],
+    condition: "Good",
+    description: "2012 Toyota Corolla LE with 112,596 miles. Exterior: Gray | Interior: Gray. Solid, efficient sedan ready for daily use.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic",
+    fuelEconomy: "27 city / 34 highway",
+    fuelType: "Gasoline"
+  },
+  {
+    id: 15,
+    make: "Honda",
+    model: "Fit",
+    year: 2009,
+    price: 2900,
+    mileage: 274451,
+    images: ["/placeholder.svg"],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "Great Fuel Economy",
+      "Hatchback Utility",
+      "Power Windows",
+      "Power Locks",
+      "Cold A/C"
+    ],
+    condition: "Good",
+    description: "2009 Honda Fit with 274,451 miles. Exterior: Blue | Interior: Gray. High-mileage but dependable and economical.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic",
+    fuelEconomy: "27 city / 33 highway",
+    fuelType: "Gasoline"
   }
 ];
 
