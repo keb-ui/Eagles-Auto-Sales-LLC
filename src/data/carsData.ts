@@ -368,10 +368,17 @@ export const cars = [
     make: "Honda",
     model: "Fit",
     year: 2009,
-    price: 2900,
+    price: 1000,
     mileage: 274451,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/eea49577-84ac-4cb4-b725-af8226c7ebb2.png",
+      "/lovable-uploads/fbd94595-275e-4929-a249-450f97c0f7ee.png",
+      "/lovable-uploads/03b97082-e890-474e-8197-87849b738a06.png",
+      "/lovable-uploads/709d732f-cf9c-4910-8463-0ef7d102c315.png",
+      "/lovable-uploads/9dac94a8-6552-4097-84dc-f330e63744bc.png",
+      "/lovable-uploads/d3095ee9-abea-401e-af44-bbf903948685.png"
+    ],
+    image: "/lovable-uploads/eea49577-84ac-4cb4-b725-af8226c7ebb2.png",
     features: [
       "Clean Title",
       "Great Fuel Economy",
