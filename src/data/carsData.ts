@@ -75,75 +75,6 @@ export const cars = [
     fuelType: "Gasoline"
   },
   {
-    id: 3,
-    make: "Honda",
-    model: "Civic",
-    year: 2018,
-    price: 14500,
-    mileage: 68000,
-    features: [
-      "Clean Title", 
-      "Recent Oil Change", 
-      "New Tires",
-      "Bluetooth Connectivity",
-      "Backup Camera",
-      "Lane Keep Assist",
-      "Collision Mitigation",
-      "Apple CarPlay"
-    ],
-    condition: "Excellent",
-    engineType: "4-Cylinder Turbo",
-    transmission: "CVT",
-    fuelEconomy: "32 city / 42 highway",
-    fuelType: "Gasoline"
-  },
-  {
-    id: 4,
-    make: "Toyota",
-    model: "Camry",
-    year: 2017,
-    price: 16200,
-    mileage: 72000,
-    features: [
-      "Single Owner", 
-      "Service Records", 
-      "Non-Smoker",
-      "Leather Seats",
-      "Sunroof",
-      "Premium Audio",
-      "Navigation System",
-      "Heated Seats"
-    ],
-    condition: "Very Good",
-    engineType: "4-Cylinder",
-    transmission: "Automatic",
-    fuelEconomy: "30 city / 38 highway",
-    fuelType: "Gasoline"
-  },
-  {
-    id: 5,
-    make: "Nissan",
-    model: "Altima",
-    year: 2016,
-    price: 12900,
-    mileage: 78000,
-    features: [
-      "Bluetooth", 
-      "Backup Camera", 
-      "Good Condition",
-      "Power Windows",
-      "Power Locks",
-      "Keyless Entry",
-      "Cruise Control",
-      "Air Conditioning"
-    ],
-    condition: "Good",
-    engineType: "4-Cylinder",
-    transmission: "CVT",
-    fuelEconomy: "27 city / 39 highway",
-    fuelType: "Gasoline"
-  },
-  {
     id: 6,
     make: "Toyota",
     model: "Sienna LE",
@@ -340,31 +271,6 @@ export const cars = [
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "28 city / 39 highway",
-    fuelType: "Gasoline"
-  },
-  {
-    id: 11,
-    make: "Toyota",
-    model: "Corolla LE",
-    year: 2019,
-    price: 15900,
-    mileage: 112369,
-    features: [
-      "Clean Title", 
-      "Backup Camera", 
-      "Lane Departure Warning",
-      "Automatic High Beams",
-      "Touchscreen Display",
-      "Bluetooth Connectivity",
-      "Cruise Control",
-      "Cold A/C",
-      "NC Inspection Passed"
-    ],
-    condition: "Excellent",
-    description: "This 2019 Toyota Corolla LE is in excellent condition and fully equipped with safety tech including lane departure alert and a backup camera. It drives smoothly, has a clean interior, and offers top-tier reliability. With a clean title and recent inspection, it's ready to drive anywhere.",
-    engineType: "4-Cylinder",
-    transmission: "CVT",
-    fuelEconomy: "31 city / 40 highway",
     fuelType: "Gasoline"
   },
   {
