@@ -420,6 +420,11 @@ export const cars = [
     price: 4690,
     mileage: 166669,
     images: [
+      "/lovable-uploads/82ab65a3-31ae-4b35-a5fb-c809fb91d8a4.png",
+      "/lovable-uploads/909dd0ec-f9c5-4ceb-8b65-5d03e3af7e75.png",
+      "/lovable-uploads/c40f5dd6-414b-44eb-9423-cb56df917b51.png",
+      "/lovable-uploads/056c337d-b223-4d6f-930c-92da34f996d8.png",
+      "/lovable-uploads/4e73a473-1812-41ee-9314-eb0f6403f96c.png",
       "/lovable-uploads/a673c210-f090-4fb4-86a2-ef7faf563e97.png",
       "/lovable-uploads/588818eb-211b-44f6-af21-4b6d2488a945.png",
       "/lovable-uploads/c7ceba09-2497-4348-b57f-f17f1f91ab0d.png",
@@ -427,7 +432,7 @@ export const cars = [
       "/lovable-uploads/12cdf032-1642-441e-821a-4b04e4a9f2a1.png",
       "/lovable-uploads/20e1adb5-d212-489b-940a-80739cef0292.png"
     ],
-    image: "/lovable-uploads/a673c210-f090-4fb4-86a2-ef7faf563e97.png",
+    image: "/lovable-uploads/82ab65a3-31ae-4b35-a5fb-c809fb91d8a4.png",
     features: [
       "Clean Title",
       "Reliable Daily Driver",
