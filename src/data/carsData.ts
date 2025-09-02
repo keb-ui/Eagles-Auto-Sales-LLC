@@ -419,8 +419,14 @@ export const cars = [
     year: 2013,
     price: 4690,
     mileage: 166669,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/82ab65a3-31ae-4b35-a5fb-c809fb91d8a4.png",
+      "/lovable-uploads/909dd0ec-f9c5-4ceb-8b65-5d03e3af7e75.png",
+      "/lovable-uploads/c40f5dd6-414b-44eb-9423-cb56df917b51.png",
+      "/lovable-uploads/056c337d-b223-4d6f-930c-92da34f996d8.png",
+      "/lovable-uploads/4e73a473-1812-41ee-9314-eb0f6403f96c.png"
+    ],
+    image: "/lovable-uploads/82ab65a3-31ae-4b35-a5fb-c809fb91d8a4.png",
     features: [
       "Clean Title",
       "Reliable Daily Driver",
