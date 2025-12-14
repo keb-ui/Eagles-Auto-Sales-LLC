@@ -61,7 +61,7 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                       <Badge 
                         className={`absolute top-4 right-4 text-sm px-2 py-1 ${
                           car.condition === 'Excellent' ? 'bg-green-500' : 
-                          car.condition === 'Very Good' ? 'bg-blue-500' : 'bg-yellow-500'
+                          car.condition === 'Very Good' ? 'bg-blue-500' : 'bg-green-600'
                         }`}
                       >
                         {car.condition}
