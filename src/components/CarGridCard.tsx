@@ -35,9 +35,12 @@ const CarGridCard = ({ car, onClick }: CarGridCardProps) => {
         </h3>
         
         <div className="flex justify-between items-center mb-3">
-          <span className="text-2xl font-bold text-blue-600">
-            ${car.price.toLocaleString()}
-          </span>
+          <div className="flex items-center gap-2">
+            <span className="text-2xl font-bold text-blue-600">
+              ${car.price.toLocaleString()}
+            </span>
+            <Badge className="bg-green-500 text-white text-xs">Available</Badge>
+          </div>
           <span className="text-gray-600">
             {car.mileage.toLocaleString()} mi
           </span>
