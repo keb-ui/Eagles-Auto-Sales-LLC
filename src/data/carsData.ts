@@ -352,30 +352,6 @@ export const cars = [
     fuelType: "Gasoline"
   },
   {
-    id: 14,
-    make: "Toyota",
-    model: "Corolla LE",
-    year: 2012,
-    price: 8900,
-    mileage: 112596,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
-    features: [
-      "Clean Title",
-      "Bluetooth",
-      "Backup Camera (aftermarket)",
-      "Power Windows & Locks",
-      "Cruise Control",
-      "Cold A/C"
-    ],
-    condition: "Good",
-    description: "2012 Toyota Corolla LE with 112,596 miles. Exterior: Gray | Interior: Gray. Solid, efficient sedan ready for daily use.",
-    engineType: "4-Cylinder",
-    transmission: "Automatic",
-    fuelEconomy: "27 city / 34 highway",
-    fuelType: "Gasoline"
-  },
-  {
     id: 15,
     make: "Honda",
     model: "Fit",
@@ -448,30 +424,6 @@ export const cars = [
     fuelEconomy: "27 city / 34 highway",
     fuelType: "Gasoline"
   },
-  {
-    id: 17,
-    make: "Jeep",
-    model: "Grand Cherokee LIMITED",
-    year: 2017,
-    price: 9730,
-    mileage: 108961,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
-    features: [
-      "Clean Title",
-      "Power Windows & Locks",
-      "Cruise Control",
-      "Cold A/C",
-      "Automatic Transmission",
-      "NC Inspection Passed"
-    ],
-    condition: "Good",
-    description: "2017 Jeep Grand Cherokee LIMITED with 108,961 miles. Exterior: Black | Interior: Gray. Comfortable SUV with great features.",
-    engineType: "V6",
-    transmission: "Automatic",
-    fuelEconomy: "18 city / 25 highway",
-    fuelType: "Gasoline"
-  }
 ];
 
 export type Car = typeof cars[0];
