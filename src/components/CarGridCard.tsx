@@ -22,7 +22,7 @@ const CarGridCard = ({ car, onClick }: CarGridCardProps) => {
         <Badge 
           className={`absolute top-3 right-3 text-sm px-2 py-1 ${
             car.condition === 'Excellent' ? 'bg-green-500' : 
-            car.condition === 'Very Good' ? 'bg-blue-500' : 'bg-yellow-500'
+            car.condition === 'Very Good' ? 'bg-blue-500' : 'bg-green-600'
           }`}
         >
           {car.condition}
