@@ -424,6 +424,37 @@ export const cars = [
     fuelEconomy: "27 city / 34 highway",
     fuelType: "Gasoline"
   },
+  {
+    id: 17,
+    make: "Toyota",
+    model: "Corolla LE",
+    year: 2021,
+    price: 13500,
+    mileage: 108000,
+    images: [
+      "/placeholder.svg"
+    ],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "NC Inspection Passed",
+      "No Mechanical Issues",
+      "Backup Camera",
+      "Power Steering with Tilt Wheel",
+      "Steering Controls",
+      "Power Locks",
+      "Power Mirrors",
+      "Power Seat",
+      "Air Conditioning (AC and Heat)",
+      "Cruise Control"
+    ],
+    condition: "Excellent",
+    description: "2021 Toyota Corolla LE in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Clean interior & smooth ride. Clean car with clean title with 108k mileage — it runs like new, no issues. Has scratches on the side and the tail light assembly is cracked (please see photos). NC inspection passed and ready to go. Call or text at 919 414 4677.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic",
+    fuelEconomy: "31 city / 40 highway",
+    fuelType: "Gasoline"
+  },
 ];
 
 export type Car = typeof cars[0];
