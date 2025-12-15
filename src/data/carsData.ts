@@ -467,22 +467,27 @@ export const cars = [
     model: "Accord",
     year: 2019,
     price: 14600,
-    mileage: 0,
+    mileage: 106600,
     images: [
       "/placeholder.svg"
     ],
     image: "/placeholder.svg",
     features: [
       "Clean Title",
-      "Automatic Transmission",
-      "Air Conditioning",
-      "Power Windows",
+      "NC Inspection Passed",
+      "No Mechanical Issues",
+      "Backup Camera",
+      "Power Steering with Tilt Wheel",
+      "Steering Controls",
       "Power Locks",
+      "Power Mirrors",
+      "Power Seat",
+      "Air Conditioning (AC and Heat)",
       "Cruise Control",
-      "Backup Camera"
+      "FWD"
     ],
     condition: "Good",
-    description: "2019 Honda Accord available. Contact us for more details. Call or text at 919 414 4677.",
+    description: "2019 Honda Accord in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Clean interior & smooth ride. Clean car with clean title with 106k mileage — it runs like new, no issues. Has scratches on the side and the tail light assembly is cracked (please see photos). NC inspection passed and ready to go. Call or text at (984) 833 7918.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "30 city / 38 highway",
