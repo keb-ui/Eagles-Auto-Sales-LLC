@@ -432,9 +432,13 @@ export const cars = [
     price: 13500,
     mileage: 108000,
     images: [
-      "/placeholder.svg"
+      "/lovable-uploads/2021-corolla-1.png",
+      "/lovable-uploads/2021-corolla-2.png",
+      "/lovable-uploads/2021-corolla-3.png",
+      "/lovable-uploads/2021-corolla-4.png",
+      "/lovable-uploads/2021-corolla-5.png"
     ],
-    image: "/placeholder.svg",
+    image: "/lovable-uploads/2021-corolla-1.png",
     features: [
       "Clean Title",
       "NC Inspection Passed",
