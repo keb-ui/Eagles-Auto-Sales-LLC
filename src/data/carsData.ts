@@ -461,6 +461,33 @@ export const cars = [
     fuelEconomy: "31 city / 40 highway",
     fuelType: "Gasoline"
   },
+  {
+    id: 18,
+    make: "Honda",
+    model: "Accord",
+    year: 2019,
+    price: 14600,
+    mileage: 0,
+    images: [
+      "/placeholder.svg"
+    ],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "Automatic Transmission",
+      "Air Conditioning",
+      "Power Windows",
+      "Power Locks",
+      "Cruise Control",
+      "Backup Camera"
+    ],
+    condition: "Good",
+    description: "2019 Honda Accord available. Contact us for more details. Call or text at 919 414 4677.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic",
+    fuelEconomy: "30 city / 38 highway",
+    fuelType: "Gasoline"
+  },
 ];
 
 export type Car = typeof cars[0];
