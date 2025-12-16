@@ -34,7 +34,7 @@ const Contact = () => {
                   <Phone className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
                     <p className="font-semibold">(919) 414-4677</p>
-                    <p className="text-gray-600 text-sm">Call or text anytime</p>
+                    <p className="text-gray-600 text-sm">Message or text anytime</p>
                   </div>
                 </div>
                 
@@ -88,7 +88,7 @@ const Contact = () => {
                   onClick={handlePhoneCall}
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (919) 414-4677
+                  Message (919) 414-4677
                 </Button>
                 <Button 
                   size="lg" 

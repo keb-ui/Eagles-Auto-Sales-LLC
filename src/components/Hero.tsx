@@ -30,7 +30,7 @@ const Hero = () => {
           </Button>
           <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-blue-600 text-blue-600 hover:bg-blue-50" onClick={handlePhoneCall}>
             <Phone className="w-5 h-5 mr-2" />
-            Call Us: (919) 414-4677
+            Message Us: (919) 414-4677
           </Button>
         </div>
       </div>

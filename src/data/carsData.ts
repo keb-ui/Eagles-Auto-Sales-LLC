@@ -455,7 +455,7 @@ export const cars = [
       "Cruise Control"
     ],
     condition: "Excellent",
-    description: "2021 Toyota Corolla LE in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Clean interior & smooth ride. Clean car with clean title with 108k mileage — it runs like new, no issues. Has scratches on the side and the tail light assembly is cracked (please see photos). NC inspection passed and ready to go. Call or text at 919 414 4677.",
+    description: "2021 Toyota Corolla LE in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Clean interior & smooth ride. Clean car with clean title with 108k mileage — it runs like new, no issues. Has scratches on the side and the tail light assembly is cracked (please see photos). NC inspection passed and ready to go. Message or text at 919 414 4677.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "31 city / 40 highway",
@@ -496,7 +496,7 @@ export const cars = [
       "FWD"
     ],
     condition: "Good",
-    description: "2019 Honda Accord in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Clean interior & smooth ride. Clean car with clean title with 106k mileage — it runs like new, no issues. Has scratches on the side and the tail light assembly is cracked (please see photos). NC inspection passed and ready to go. Call or text at (984) 833 7918.",
+    description: "2019 Honda Accord in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Clean interior & smooth ride. Clean car with clean title with 106k mileage — it runs like new, no issues. Has scratches on the side and the tail light assembly is cracked (please see photos). NC inspection passed and ready to go. Message or text at (984) 833 7918.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "30 city / 38 highway",
@@ -522,7 +522,7 @@ export const cars = [
       "Power Windows"
     ],
     condition: "Good",
-    description: "2007 Hyundai Elantra in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Call or text at 919 414 4677.",
+    description: "2007 Hyundai Elantra in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Message or text at 919 414 4677.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "28 city / 34 highway",
