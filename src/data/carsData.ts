@@ -469,9 +469,13 @@ export const cars = [
     price: 14600,
     mileage: 106600,
     images: [
-      "/placeholder.svg"
+      "/lovable-uploads/2019-accord-1.png",
+      "/lovable-uploads/2019-accord-2.png",
+      "/lovable-uploads/2019-accord-3.png",
+      "/lovable-uploads/2019-accord-4.png",
+      "/lovable-uploads/2019-accord-5.png"
     ],
-    image: "/placeholder.svg",
+    image: "/lovable-uploads/2019-accord-1.png",
     features: [
       "Clean Title",
       "NC Inspection Passed",
