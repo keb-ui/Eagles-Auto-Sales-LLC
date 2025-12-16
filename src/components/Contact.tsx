@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
-  const handlePhoneCall = () => {
-    window.location.href = "tel:+19194144677";
+  const handleTextMessage = () => {
+    window.location.href = "sms:+19194144677";
   };
 
   const handleFacebookMessage = () => {
@@ -85,7 +85,7 @@ const Contact = () => {
                   variant="secondary" 
                   size="lg" 
                   className="w-full"
-                  onClick={handlePhoneCall}
+                  onClick={handleTextMessage}
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Message (919) 414-4677

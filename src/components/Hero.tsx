@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle } from "lucide-react";
 
 const Hero = () => {
-  const handlePhoneCall = () => {
-    window.location.href = "tel:+19194144677";
+  const handleTextMessage = () => {
+    window.location.href = "sms:+19194144677";
   };
 
   const scrollToCars = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
             <MessageCircle className="w-5 h-5 mr-2" />
             View Our Cars
           </Button>
-          <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-blue-600 text-blue-600 hover:bg-blue-50" onClick={handlePhoneCall}>
+          <Button variant="outline" size="lg" className="px-8 py-4 text-lg border-blue-600 text-blue-600 hover:bg-blue-50" onClick={handleTextMessage}>
             <Phone className="w-5 h-5 mr-2" />
             Message Us: (919) 414-4677
           </Button>

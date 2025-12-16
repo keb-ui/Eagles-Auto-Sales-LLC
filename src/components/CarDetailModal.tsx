@@ -15,8 +15,8 @@ interface CarDetailModalProps {
 const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
   if (!car) return null;
 
-  const handlePhoneCall = () => {
-    window.location.href = "tel:+19194144677";
+  const handleTextMessage = () => {
+    window.location.href = "sms:+19194144677";
   };
 
   const handleFacebookMessage = () => {
@@ -170,7 +170,7 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                 <Button 
                   size="lg" 
                   variant="outline"
-                  onClick={handlePhoneCall}
+                  onClick={handleTextMessage}
                 >
                   <Phone className="w-5 h-5 mr-2" />
                   Message Now
