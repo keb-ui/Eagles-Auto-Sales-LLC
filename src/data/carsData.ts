@@ -493,6 +493,32 @@ export const cars = [
     fuelEconomy: "30 city / 38 highway",
     fuelType: "Gasoline"
   },
+  {
+    id: 19,
+    make: "Hyundai",
+    model: "Elantra",
+    year: 2007,
+    price: 4200,
+    mileage: 124000,
+    images: [
+      "/placeholder.svg"
+    ],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "Clean Service Records",
+      "Automatic Transmission",
+      "Air Conditioning (AC and Heat)",
+      "Cruise Control",
+      "Power Windows"
+    ],
+    condition: "Good",
+    description: "2007 Hyundai Elantra in excellent mechanical condition. Has clean title and clean service records. Automatic Transmission. All features are in great working condition such as A/C heat, cruise control, and windows. Call or text at 919 414 4677.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic",
+    fuelEconomy: "28 city / 34 highway",
+    fuelType: "Gasoline"
+  },
 ];
 
 export type Car = typeof cars[0];
