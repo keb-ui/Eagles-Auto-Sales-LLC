@@ -473,7 +473,12 @@ export const cars = [
       "/lovable-uploads/2019-accord-2.png",
       "/lovable-uploads/2019-accord-3.png",
       "/lovable-uploads/2019-accord-4.png",
-      "/lovable-uploads/2019-accord-5.png"
+      "/lovable-uploads/2019-accord-5.png",
+      "/lovable-uploads/2019-accord-6.png",
+      "/lovable-uploads/2019-accord-7.png",
+      "/lovable-uploads/2019-accord-8.png",
+      "/lovable-uploads/2019-accord-9.png",
+      "/lovable-uploads/2019-accord-10.png"
     ],
     image: "/lovable-uploads/2019-accord-1.png",
     features: [
