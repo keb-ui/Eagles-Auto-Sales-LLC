@@ -515,7 +515,11 @@ export const cars = [
       "/lovable-uploads/2007-elantra-3.png",
       "/lovable-uploads/2007-elantra-4.png",
       "/lovable-uploads/2007-elantra-5.png",
-      "/lovable-uploads/2007-elantra-6.png"
+      "/lovable-uploads/2007-elantra-6.png",
+      "/lovable-uploads/2007-elantra-7.png",
+      "/lovable-uploads/2007-elantra-8.png",
+      "/lovable-uploads/2007-elantra-9.png",
+      "/lovable-uploads/2007-elantra-10.png"
     ],
     image: "/lovable-uploads/2007-elantra-1.png",
     features: [
