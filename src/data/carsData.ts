@@ -510,9 +510,14 @@ export const cars = [
     price: 4200,
     mileage: 124000,
     images: [
-      "/placeholder.svg"
+      "/lovable-uploads/2007-elantra-1.png",
+      "/lovable-uploads/2007-elantra-2.png",
+      "/lovable-uploads/2007-elantra-3.png",
+      "/lovable-uploads/2007-elantra-4.png",
+      "/lovable-uploads/2007-elantra-5.png",
+      "/lovable-uploads/2007-elantra-6.png"
     ],
-    image: "/placeholder.svg",
+    image: "/lovable-uploads/2007-elantra-1.png",
     features: [
       "Clean Title",
       "Clean Service Records",
