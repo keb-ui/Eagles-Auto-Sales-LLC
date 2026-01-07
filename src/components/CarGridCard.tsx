@@ -8,17 +8,26 @@ interface CarGridCardProps {
 }
 
 const CarGridCard = ({ car, onClick }: CarGridCardProps) => {
+  const isSold = car.status === "sold";
+  
   return (
     <div 
-      className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl animate-fade-in"
+      className={`bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-xl animate-fade-in ${isSold ? 'opacity-75' : ''}`}
       onClick={onClick}
     >
       <div className="relative">
         <img 
           src={car.image} 
           alt={`${car.year} ${car.make} ${car.model}`}
-          className="w-full h-48 object-cover transition-transform duration-300"
+          className={`w-full h-48 object-cover transition-transform duration-300 ${isSold ? 'grayscale' : ''}`}
         />
+        {isSold && (
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <Badge className="bg-red-600 text-white text-lg px-4 py-2 font-bold">
+              SOLD
+            </Badge>
+          </div>
+        )}
         <Badge 
           className={`absolute top-3 right-3 text-sm px-2 py-1 ${
             car.condition === 'Excellent' ? 'bg-blue-500' : 
@@ -39,7 +48,11 @@ const CarGridCard = ({ car, onClick }: CarGridCardProps) => {
             <span className="text-2xl font-bold text-blue-600">
               ${car.price.toLocaleString()}
             </span>
-            <Badge className="bg-green-500 text-white text-xs">Available</Badge>
+            {isSold ? (
+              <Badge className="bg-red-500 text-white text-xs">Sold</Badge>
+            ) : (
+              <Badge className="bg-green-500 text-white text-xs">Available</Badge>
+            )}
           </div>
           <span className="text-gray-600">
             {car.mileage.toLocaleString()} mi

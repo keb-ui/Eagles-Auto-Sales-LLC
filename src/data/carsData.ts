@@ -35,7 +35,8 @@ export const cars = [
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "28 city / 35 highway",
-    fuelType: "Gasoline"
+    fuelType: "Gasoline",
+    status: "sold"
   },
   {
     id: 2,
@@ -72,7 +73,8 @@ export const cars = [
     engineType: "V8",
     transmission: "Automatic",
     fuelEconomy: "15 city / 20 highway",
-    fuelType: "Gasoline"
+    fuelType: "Gasoline",
+    status: "sold"
   },
   {
     id: 6,
@@ -110,7 +112,8 @@ export const cars = [
     engineType: "V6",
     transmission: "Automatic",
     fuelEconomy: "18 city / 25 highway",
-    fuelType: "Gasoline"
+    fuelType: "Gasoline",
+    status: "sold"
   },
   {
     id: 7,
@@ -231,7 +234,8 @@ export const cars = [
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "21 city / 28 highway",
-    fuelType: "Gasoline"
+    fuelType: "Gasoline",
+    status: "sold"
   },
   {
     id: 10,
@@ -386,7 +390,8 @@ export const cars = [
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "27 city / 33 highway",
-    fuelType: "Gasoline"
+    fuelType: "Gasoline",
+    status: "sold"
   },
   {
     id: 16,
@@ -500,7 +505,8 @@ export const cars = [
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "30 city / 38 highway",
-    fuelType: "Gasoline"
+    fuelType: "Gasoline",
+    status: "sold"
   },
   {
     id: 19,
