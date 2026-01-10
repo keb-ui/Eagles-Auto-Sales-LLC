@@ -306,8 +306,7 @@ export const cars = [
     engineType: "V8",
     transmission: "Automatic",
     fuelEconomy: "18 city / 23 highway",
-    fuelType: "Gasoline",
-    status: "sold"
+    fuelType: "Gasoline"
   },
   {
     id: 9,
