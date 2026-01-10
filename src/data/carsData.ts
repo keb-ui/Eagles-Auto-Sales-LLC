@@ -87,9 +87,14 @@ export const cars = [
     price: 6200,
     mileage: 150000,
     images: [
-      "/lovable-uploads/placeholder.svg"
+      "/lovable-uploads/2008-prius-1.png",
+      "/lovable-uploads/2008-prius-2.png",
+      "/lovable-uploads/2008-prius-3.png",
+      "/lovable-uploads/2008-prius-4.png",
+      "/lovable-uploads/2008-prius-5.png",
+      "/lovable-uploads/2008-prius-6.png"
     ],
-    image: "/lovable-uploads/placeholder.svg",
+    image: "/lovable-uploads/2008-prius-1.png",
     features: [
       "Clean Title",
       "Hybrid – Excellent Gas Mileage",
