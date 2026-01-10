@@ -36,6 +36,40 @@ export const cars = [
     fuelType: "Gasoline"
   },
   {
+    id: 20,
+    make: "Toyota",
+    model: "Prius",
+    year: 2008,
+    price: 6200,
+    mileage: 150000,
+    images: [
+      "/lovable-uploads/placeholder.svg"
+    ],
+    image: "/lovable-uploads/placeholder.svg",
+    features: [
+      "Clean Title",
+      "Hybrid – Excellent Gas Mileage",
+      "Bluetooth",
+      "Backup Camera",
+      "Smooth & Comfortable Ride",
+      "Runs & Drives Great",
+      "Clean Inside & Out",
+      "Well Maintained",
+      "A/C & Heat",
+      "Cruise Control",
+      "Power Windows"
+    ],
+    condition: "Good",
+    description: "This 2008 Toyota Prius Base has 150K miles and has been well cared for. It comes with a clean title and is known for its fuel efficiency and reliability. All features are in great working condition, including A/C, heat, Bluetooth, backup camera, cruise control, and power windows. Clean interior and a smooth, quiet ride. Great commuter or daily driver that's easy on gas and dependable. Text me at 919 414 4677",
+    engineType: "4-Cylinder Hybrid",
+    transmission: "Automatic",
+    fuelEconomy: "48 city / 45 highway",
+    fuelType: "Hybrid",
+    bodyType: "Hatchback",
+    driveType: "FWD",
+    paintColor: "Silver"
+  },
+  {
     id: 12,
     make: "Honda",
     model: "CR-V EX",
