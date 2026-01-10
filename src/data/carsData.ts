@@ -92,7 +92,11 @@ export const cars = [
       "/lovable-uploads/2008-prius-3.png",
       "/lovable-uploads/2008-prius-4.png",
       "/lovable-uploads/2008-prius-5.png",
-      "/lovable-uploads/2008-prius-6.png"
+      "/lovable-uploads/2008-prius-6.png",
+      "/lovable-uploads/2008-prius-7.png",
+      "/lovable-uploads/2008-prius-8.png",
+      "/lovable-uploads/2008-prius-9.png",
+      "/lovable-uploads/2008-prius-10.png"
     ],
     image: "/lovable-uploads/2008-prius-1.png",
     features: [
