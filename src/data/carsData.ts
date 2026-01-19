@@ -134,7 +134,12 @@ export const cars = [
       "/lovable-uploads/2011-sienna-2.png",
       "/lovable-uploads/2011-sienna-3.png",
       "/lovable-uploads/2011-sienna-4.png",
-      "/lovable-uploads/2011-sienna-5.png"
+      "/lovable-uploads/2011-sienna-5.png",
+      "/lovable-uploads/2011-sienna-6.png",
+      "/lovable-uploads/2011-sienna-7.png",
+      "/lovable-uploads/2011-sienna-8.png",
+      "/lovable-uploads/2011-sienna-9.png",
+      "/lovable-uploads/2011-sienna-10.png"
     ],
     image: "/lovable-uploads/2011-sienna-1.png",
     features: [
