@@ -163,7 +163,7 @@ export const cars = [
   {
     id: 22,
     make: "Hyundai",
-    model: "Elantra Limited",
+    model: "Elantra",
     year: 2013,
     price: 5500,
     mileage: 197000,
