@@ -168,9 +168,12 @@ export const cars = [
     price: 14500,
     mileage: 99000,
     images: [
-      "/lovable-uploads/placeholder-corolla-2019.png"
+      "/lovable-uploads/2019-corolla-1.png",
+      "/lovable-uploads/2019-corolla-2.png",
+      "/lovable-uploads/2019-corolla-3.png",
+      "/lovable-uploads/2019-corolla-4.png"
     ],
-    image: "/lovable-uploads/placeholder-corolla-2019.png",
+    image: "/lovable-uploads/2019-corolla-1.png",
     features: [
       "Clean Title",
       "Backup Camera",
