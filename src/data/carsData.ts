@@ -161,6 +161,65 @@ export const cars = [
     driveType: "FWD"
   },
   {
+    id: 23,
+    make: "Toyota",
+    model: "Corolla LE",
+    year: 2019,
+    price: 14500,
+    mileage: 99000,
+    images: [
+      "/lovable-uploads/placeholder-corolla-2019.png"
+    ],
+    image: "/lovable-uploads/placeholder-corolla-2019.png",
+    features: [
+      "Clean Title",
+      "Backup Camera",
+      "Bluetooth",
+      "A/C & Heat",
+      "Cruise Control",
+      "Power Windows & Locks",
+      "Runs & Drives Great"
+    ],
+    condition: "Good",
+    description: "2019 Toyota Corolla LE with 99K miles. Reliable, fuel-efficient sedan in great condition. Clean title. Text me at 919 414 4677.",
+    engineType: "4-Cylinder",
+    transmission: "CVT",
+    fuelEconomy: "30 city / 38 highway",
+    fuelType: "Gasoline",
+    bodyType: "Sedan",
+    driveType: "FWD"
+  },
+  {
+    id: 24,
+    make: "Toyota",
+    model: "Highlander LE Plus",
+    year: 2019,
+    price: 16500,
+    mileage: 157186,
+    images: [
+      "/lovable-uploads/placeholder-highlander-2019.png"
+    ],
+    image: "/lovable-uploads/placeholder-highlander-2019.png",
+    features: [
+      "Clean Title",
+      "3rd Row Seating",
+      "Backup Camera",
+      "Bluetooth",
+      "A/C & Heat",
+      "Cruise Control",
+      "Power Windows & Locks",
+      "Runs & Drives Great"
+    ],
+    condition: "Good",
+    description: "2019 Toyota Highlander LE Plus with 157,186 miles. Spacious, reliable SUV with 3rd row seating. Clean title. Text me at 919 414 4677.",
+    engineType: "V6",
+    transmission: "Automatic",
+    fuelEconomy: "21 city / 27 highway",
+    fuelType: "Gasoline",
+    bodyType: "SUV",
+    driveType: "FWD"
+  },
+  {
     id: 22,
     make: "Hyundai",
     model: "Elantra",
