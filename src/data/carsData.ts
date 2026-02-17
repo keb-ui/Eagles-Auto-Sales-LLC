@@ -171,7 +171,12 @@ export const cars = [
       "/lovable-uploads/2019-corolla-1.png",
       "/lovable-uploads/2019-corolla-2.png",
       "/lovable-uploads/2019-corolla-3.png",
-      "/lovable-uploads/2019-corolla-4.png"
+      "/lovable-uploads/2019-corolla-4.png",
+      "/lovable-uploads/2019-corolla-5.png",
+      "/lovable-uploads/2019-corolla-6.png",
+      "/lovable-uploads/2019-corolla-7.png",
+      "/lovable-uploads/2019-corolla-8.png",
+      "/lovable-uploads/2019-corolla-9.png"
     ],
     image: "/lovable-uploads/2019-corolla-1.png",
     features: [
