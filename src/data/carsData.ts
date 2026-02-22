@@ -208,7 +208,12 @@ export const cars = [
       "/lovable-uploads/2019-highlander-1.jpg",
       "/lovable-uploads/2019-highlander-2.jpg",
       "/lovable-uploads/2019-highlander-3.jpg",
-      "/lovable-uploads/2019-highlander-4.jpg"
+      "/lovable-uploads/2019-highlander-4.jpg",
+      "/lovable-uploads/2019-highlander-5.jpg",
+      "/lovable-uploads/2019-highlander-6.jpg",
+      "/lovable-uploads/2019-highlander-7.jpg",
+      "/lovable-uploads/2019-highlander-8.jpg",
+      "/lovable-uploads/2019-highlander-9.jpg"
     ],
     image: "/lovable-uploads/2019-highlander-1.jpg",
     features: [
