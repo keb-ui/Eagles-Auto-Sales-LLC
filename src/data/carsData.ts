@@ -205,9 +205,12 @@ export const cars = [
     price: 16500,
     mileage: 157186,
     images: [
-      "/lovable-uploads/placeholder-highlander-2019.png"
+      "/lovable-uploads/2019-highlander-1.jpg",
+      "/lovable-uploads/2019-highlander-2.jpg",
+      "/lovable-uploads/2019-highlander-3.jpg",
+      "/lovable-uploads/2019-highlander-4.jpg"
     ],
-    image: "/lovable-uploads/placeholder-highlander-2019.png",
+    image: "/lovable-uploads/2019-highlander-1.jpg",
     features: [
       "Clean Title",
       "3rd Row Seating",
