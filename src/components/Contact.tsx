@@ -4,12 +4,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
+  const facebookUrl = "https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY";
+
   const handleTextMessage = () => {
     window.location.href = "sms:+19194144677";
-  };
-
-  const handleFacebookMessage = () => {
-    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
   };
 
   return (
