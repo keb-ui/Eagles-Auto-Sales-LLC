@@ -15,7 +15,15 @@ interface CarDetailModalProps {
 const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
   if (!car) return null;
 
-const facebookUrl = "https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY";
+  const facebookUrl = "https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY";
+
+  const handleTextMessage = () => {
+    window.location.href = "sms:+19194144677";
+  };
+
+  const handleCraigslistView = (url: string) => {
+    window.open(url, "_blank");
+  };
 
   // Use the images array if it exists, otherwise fall back to single image
   const carImages = car.images || [car.image];
