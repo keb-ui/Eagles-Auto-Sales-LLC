@@ -4,12 +4,10 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 
 const Contact = () => {
+  const facebookUrl = "https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY";
+
   const handleTextMessage = () => {
     window.location.href = "sms:+19194144677";
-  };
-
-  const handleFacebookMessage = () => {
-    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
   };
 
   return (
@@ -93,10 +91,12 @@ const Contact = () => {
                 <Button 
                   size="lg" 
                   className="w-full bg-white text-blue-600 hover:bg-gray-100"
-                  onClick={handleFacebookMessage}
+                  asChild
                 >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Message on Facebook
+                  <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    Message on Facebook
+                  </a>
                 </Button>
               </div>
             </CardContent>

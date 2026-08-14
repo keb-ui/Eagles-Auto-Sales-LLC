@@ -15,16 +15,10 @@ interface CarDetailModalProps {
 const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
   if (!car) return null;
 
+  const facebookUrl = "https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY";
+
   const handleTextMessage = () => {
     window.location.href = "sms:+19194144677";
-  };
-
-  const handleFacebookMessage = () => {
-    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
-  };
-
-  const handleScheduleTestDrive = () => {
-    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
   };
 
   const handleCraigslistView = (url: string) => {
@@ -150,20 +144,24 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
               <Button 
                 size="lg" 
                 className="w-full bg-green-600 hover:bg-green-700 animate-fade-in"
-                onClick={handleScheduleTestDrive}
+                asChild
               >
-                <Calendar className="w-5 h-5 mr-2" />
-                Schedule a Test Drive
+                <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                  <Calendar className="w-5 h-5 mr-2" />
+                  Schedule a Test Drive
+                </a>
               </Button>
               
               <div className="grid grid-cols-2 gap-3">
                 <Button 
                   size="lg" 
                   className="bg-blue-600 hover:bg-blue-700"
-                  onClick={handleFacebookMessage}
+                  asChild
                 >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Message Us
+                  <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    Message Us
+                  </a>
                 </Button>
                 <Button 
                   size="lg" 
