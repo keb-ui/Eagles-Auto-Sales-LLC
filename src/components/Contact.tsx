@@ -91,10 +91,12 @@ const Contact = () => {
                 <Button 
                   size="lg" 
                   className="w-full bg-white text-blue-600 hover:bg-gray-100"
-                  onClick={handleFacebookMessage}
+                  asChild
                 >
-                  <MessageCircle className="w-5 h-5 mr-2" />
-                  Message on Facebook
+                  <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                    <MessageCircle className="w-5 h-5 mr-2" />
+                    Message on Facebook
+                  </a>
                 </Button>
               </div>
             </CardContent>
