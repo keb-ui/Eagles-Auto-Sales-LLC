@@ -9,7 +9,7 @@ const Contact = () => {
   };
 
   const handleFacebookMessage = () => {
-    window.open("https://www.facebook.com/EaglesAutoSalesLLC?mibextid=wwXIfr&rdid=U9bIqHdHEU1jIc7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19BPqFJfYx%2F%3Fmibextid%3DwwXIfr#", "_blank");
+    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
   };
 
   return (

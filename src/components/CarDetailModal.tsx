@@ -20,13 +20,11 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
   };
 
   const handleFacebookMessage = () => {
-    window.open("https://www.facebook.com/EaglesAutoSalesLLC?mibextid=wwXIfr&rdid=U9bIqHdHEU1jIc7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19BPqFJfYx%2F%3Fmibextid%3DwwXIfr#", "_blank");
+    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
   };
 
   const handleScheduleTestDrive = () => {
-    const message = `Hi! I'm interested in scheduling a test drive for the ${car.year} ${car.make} ${car.model} listed at $${car.price.toLocaleString()}.`;
-    const encodedMessage = encodeURIComponent(message);
-    window.open(`https://www.facebook.com/EaglesAutoSalesLLC?mibextid=wwXIfr&rdid=U9bIqHdHEU1jIc7h&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19BPqFJfYx%2F%3Fmibextid%3DwwXIfr#${encodedMessage}`, "_blank");
+    window.open("https://www.facebook.com/EaglesAutoSalesLLC/?rdid=SMc5qxfSKip7YhUY", "_blank");
   };
 
   const handleCraigslistView = (url: string) => {
