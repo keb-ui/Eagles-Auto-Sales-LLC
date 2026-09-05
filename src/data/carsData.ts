@@ -1,6 +1,34 @@
 
 export const cars = [
   {
+    id: 25,
+    make: "Honda",
+    model: "Odyssey LX",
+    year: 2016,
+    price: 3400,
+    mileage: 157274,
+    images: ["/placeholder.svg"],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "3rd Row Seating",
+      "Backup Camera",
+      "Power Windows & Locks",
+      "Cruise Control",
+      "A/C & Heat",
+      "Automatic Transmission"
+    ],
+    condition: "Very Good",
+    description: "2016 Honda Odyssey LX with 157,274 miles. Exterior: Burgundy. VIN: 5FNRL5H28GB041277. Reliable family minivan with 3rd row seating and spacious interior. Clean title. Text me at 919 414 4677.",
+    engineType: "V6",
+    transmission: "Automatic",
+    fuelEconomy: "19 city / 27 highway",
+    fuelType: "Gasoline",
+    bodyType: "Minivan",
+    driveType: "FWD",
+    paintColor: "Burgundy"
+  },
+  {
     id: 8,
     make: "Ford",
     model: "F-150 XL",
