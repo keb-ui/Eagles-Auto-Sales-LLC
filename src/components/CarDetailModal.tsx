@@ -146,7 +146,7 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                 className="w-full bg-green-600 hover:bg-green-700 animate-fade-in"
                 asChild
               >
-                <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                <a href="sms:+19194144677">
                   <Calendar className="w-5 h-5 mr-2" />
                   Schedule a Test Drive
                 </a>
@@ -158,7 +158,7 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                   className="bg-blue-600 hover:bg-blue-700"
                   asChild
                 >
-                  <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                  <a href="sms:+19194144677">
                     <MessageCircle className="w-5 h-5 mr-2" />
                     Message Us
                   </a>
@@ -172,6 +172,7 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                   Message Now
                 </Button>
               </div>
+              
               
               {car.craigslistUrl && (
                 <Button 

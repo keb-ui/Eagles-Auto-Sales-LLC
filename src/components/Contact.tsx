@@ -39,10 +39,11 @@ const Contact = () => {
                 <div className="flex items-center">
                   <MessageCircle className="w-5 h-5 text-blue-600 mr-3" />
                   <div>
-                    <p className="font-semibold">Facebook Messenger</p>
-                    <p className="text-gray-600 text-sm">Fast response during business hours</p>
+                    <p className="font-semibold">(919) 414-4677</p>
+                    <p className="text-gray-600 text-sm">Text or SMS anytime</p>
                   </div>
                 </div>
+                
                 
                 <div className="flex items-center">
                   <MapPin className="w-5 h-5 text-blue-600 mr-3" />
@@ -93,11 +94,12 @@ const Contact = () => {
                   className="w-full bg-white text-blue-600 hover:bg-gray-100"
                   asChild
                 >
-                  <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
+                  <a href="sms:+19194144677">
                     <MessageCircle className="w-5 h-5 mr-2" />
-                    Message on Facebook
+                    Message Us
                   </a>
                 </Button>
+                
               </div>
             </CardContent>
           </Card>
