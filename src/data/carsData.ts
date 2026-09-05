@@ -3,6 +3,11 @@ import odyssey1 from "@/assets/2016-odyssey-1.png.asset.json";
 import odyssey2 from "@/assets/2016-odyssey-2.png.asset.json";
 import odyssey3 from "@/assets/2016-odyssey-3.png.asset.json";
 import odyssey4 from "@/assets/2016-odyssey-4.png.asset.json";
+import odyssey5 from "@/assets/2016-odyssey-5.png.asset.json";
+import odyssey6 from "@/assets/2016-odyssey-6.png.asset.json";
+import odyssey7 from "@/assets/2016-odyssey-7.png.asset.json";
+import odyssey8 from "@/assets/2016-odyssey-8.png.asset.json";
+import odyssey9 from "@/assets/2016-odyssey-9.png.asset.json";
 
 export const cars = [
   {
@@ -16,7 +21,12 @@ export const cars = [
       odyssey1.url,
       odyssey2.url,
       odyssey3.url,
-      odyssey4.url
+      odyssey4.url,
+      odyssey5.url,
+      odyssey6.url,
+      odyssey7.url,
+      odyssey8.url,
+      odyssey9.url
     ],
     image: odyssey1.url,
     features: [
