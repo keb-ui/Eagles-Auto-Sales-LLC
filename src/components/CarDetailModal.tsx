@@ -15,7 +15,7 @@ interface CarDetailModalProps {
 const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
   if (!car) return null;
 
-  const facebookUrl = "https://www.facebook.com/EaglesAutoSalesLLC/";
+  
 
   const handleTextMessage = () => {
     window.location.href = "sms:+19194144677";
