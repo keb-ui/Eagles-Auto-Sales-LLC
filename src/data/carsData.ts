@@ -1,4 +1,9 @@
 
+import odyssey1 from "@/assets/2016-odyssey-1.png.asset.json";
+import odyssey2 from "@/assets/2016-odyssey-2.png.asset.json";
+import odyssey3 from "@/assets/2016-odyssey-3.png.asset.json";
+import odyssey4 from "@/assets/2016-odyssey-4.png.asset.json";
+
 export const cars = [
   {
     id: 25,
@@ -7,8 +12,13 @@ export const cars = [
     year: 2016,
     price: 3400,
     mileage: 157274,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      odyssey1.url,
+      odyssey2.url,
+      odyssey3.url,
+      odyssey4.url
+    ],
+    image: odyssey1.url,
     features: [
       "Clean Title",
       "3rd Row Seating",
