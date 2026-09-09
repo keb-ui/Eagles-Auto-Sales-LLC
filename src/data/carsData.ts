@@ -1,14 +1,4 @@
 
-import odyssey1 from "@/assets/2016-odyssey-1.png.asset.json";
-import odyssey2 from "@/assets/2016-odyssey-2.png.asset.json";
-import odyssey3 from "@/assets/2016-odyssey-3.png.asset.json";
-import odyssey4 from "@/assets/2016-odyssey-4.png.asset.json";
-import odyssey5 from "@/assets/2016-odyssey-5.png.asset.json";
-import odyssey6 from "@/assets/2016-odyssey-6.png.asset.json";
-import odyssey7 from "@/assets/2016-odyssey-7.png.asset.json";
-import odyssey8 from "@/assets/2016-odyssey-8.png.asset.json";
-import odyssey9 from "@/assets/2016-odyssey-9.png.asset.json";
-
 export const cars = [
   {
     id: 25,
@@ -18,17 +8,17 @@ export const cars = [
     price: 3400,
     mileage: 157274,
     images: [
-      odyssey1.url,
-      odyssey2.url,
-      odyssey3.url,
-      odyssey4.url,
-      odyssey5.url,
-      odyssey6.url,
-      odyssey7.url,
-      odyssey8.url,
-      odyssey9.url
+      "/lovable-uploads/2016-odyssey-1.png",
+      "/lovable-uploads/2016-odyssey-2.png",
+      "/lovable-uploads/2016-odyssey-3.png",
+      "/lovable-uploads/2016-odyssey-4.png",
+      "/lovable-uploads/2016-odyssey-5.png",
+      "/lovable-uploads/2016-odyssey-6.png",
+      "/lovable-uploads/2016-odyssey-7.png",
+      "/lovable-uploads/2016-odyssey-8.png",
+      "/lovable-uploads/2016-odyssey-9.png"
     ],
-    image: odyssey1.url,
+    image: "/lovable-uploads/2016-odyssey-1.png",
     features: [
       "Clean Title",
       "3rd Row Seating",
