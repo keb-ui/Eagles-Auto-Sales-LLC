@@ -5,7 +5,7 @@ export const cars = [
     make: "Honda",
     model: "Odyssey LX",
     year: 2016,
-    price: 3400,
+    price: 8100,
     mileage: 157274,
     images: [
       "/lovable-uploads/2016-odyssey-1.png",
