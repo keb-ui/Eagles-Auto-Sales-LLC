@@ -41,7 +41,12 @@ export const cars = [
       "/lovable-uploads/2016-renegade-2.png",
       "/lovable-uploads/2016-renegade-3.png",
       "/lovable-uploads/2016-renegade-4.png",
-      "/lovable-uploads/2016-renegade-5.png"
+      "/lovable-uploads/2016-renegade-5.png",
+      "/lovable-uploads/2016-renegade-6.png",
+      "/lovable-uploads/2016-renegade-7.png",
+      "/lovable-uploads/2016-renegade-8.png",
+      "/lovable-uploads/2016-renegade-9.png",
+      "/lovable-uploads/2016-renegade-10.png"
     ],
     image: "/lovable-uploads/2016-renegade-1.png",
     features: [
