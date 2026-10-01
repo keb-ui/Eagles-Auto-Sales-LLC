@@ -7,8 +7,14 @@ export const cars = [
     year: 2006,
     price: 5485,
     mileage: 123835,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2006-corolla-1.png",
+      "/lovable-uploads/2006-corolla-2.png",
+      "/lovable-uploads/2006-corolla-3.png",
+      "/lovable-uploads/2006-corolla-4.png",
+      "/lovable-uploads/2006-corolla-5.png"
+    ],
+    image: "/lovable-uploads/2006-corolla-1.png",
     features: [
       "Clean Title",
       "Sport S Trim",
