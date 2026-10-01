@@ -25,7 +25,7 @@ export const cars = [
       "Automatic Transmission"
     ],
     condition: "Good",
-    description: "2006 Toyota Corolla S with 123,835 miles. Exterior: Silver. Interior: Gray. VIN: 1NXBR32E56Z631574. Fuel-efficient, dependable compact sedan with the sporty S trim. Clean title. Photos coming soon. Text me at 919 414 4677.",
+    description: "2006 Toyota Corolla S with 123,835 miles. Exterior: Silver. Interior: Gray. VIN: 1NXBR32E56Z631574. Fuel-efficient, dependable compact sedan with the sporty S trim. Clean title. Text me at 919 414 4677.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "24 city / 33 highway",
