@@ -7,8 +7,14 @@ export const cars = [
     year: 2006,
     price: 5485,
     mileage: 123835,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2006-corolla-1.png",
+      "/lovable-uploads/2006-corolla-2.png",
+      "/lovable-uploads/2006-corolla-3.png",
+      "/lovable-uploads/2006-corolla-4.png",
+      "/lovable-uploads/2006-corolla-5.png"
+    ],
+    image: "/lovable-uploads/2006-corolla-1.png",
     features: [
       "Clean Title",
       "Sport S Trim",
@@ -19,7 +25,7 @@ export const cars = [
       "Automatic Transmission"
     ],
     condition: "Good",
-    description: "2006 Toyota Corolla S with 123,835 miles. Exterior: Silver. Interior: Gray. VIN: 1NXBR32E56Z631574. Fuel-efficient, dependable compact sedan with the sporty S trim. Clean title. Photos coming soon. Text me at 919 414 4677.",
+    description: "2006 Toyota Corolla S with 123,835 miles. Exterior: Silver. Interior: Gray. VIN: 1NXBR32E56Z631574. Fuel-efficient, dependable compact sedan with the sporty S trim. Clean title. Text me at 919 414 4677.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "24 city / 33 highway",
