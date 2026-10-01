@@ -36,8 +36,14 @@ export const cars = [
     year: 2016,
     price: 6100,
     mileage: 150086,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2016-renegade-1.png",
+      "/lovable-uploads/2016-renegade-2.png",
+      "/lovable-uploads/2016-renegade-3.png",
+      "/lovable-uploads/2016-renegade-4.png",
+      "/lovable-uploads/2016-renegade-5.png"
+    ],
+    image: "/lovable-uploads/2016-renegade-1.png",
     features: [
       "Clean Title",
       "Trailhawk Off-Road Trim",
@@ -49,7 +55,7 @@ export const cars = [
       "Automatic Transmission"
     ],
     condition: "Good",
-    description: "2016 Jeep Renegade Trailhawk with 150,086 miles. Exterior: Gray. Interior: Black. VIN: ZACCJBCT1GPC64070. Trailhawk off-road trim with 4-wheel drive, raised suspension, and all-terrain tires. Clean title. Photos coming soon. Text me at 919 414 4677.",
+    description: "2016 Jeep Renegade Trailhawk with 150,086 miles. Exterior: Gray. Interior: Black. VIN: ZACCJBCT1GPC64070. Trailhawk off-road trim with 4-wheel drive, raised suspension, and all-terrain tires. Clean title. Text me at 919 414 4677.",
     engineType: "4-Cylinder",
     transmission: "Automatic",
     fuelEconomy: "21 city / 29 highway",
