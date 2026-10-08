@@ -8,9 +8,14 @@ export const cars = [
     price: 13280,
     mileage: 103530,
     images: [
-      "/placeholder.svg"
+      "/lovable-uploads/2020-corolla-1.png",
+      "/lovable-uploads/2020-corolla-2.png",
+      "/lovable-uploads/2020-corolla-3.png",
+      "/lovable-uploads/2020-corolla-4.png",
+      "/lovable-uploads/2020-corolla-5.png",
+      "/lovable-uploads/2020-corolla-6.png"
     ],
-    image: "/placeholder.svg",
+    image: "/lovable-uploads/2020-corolla-1.png",
     features: [
       "Clean Title",
       "SE Sport Trim",
