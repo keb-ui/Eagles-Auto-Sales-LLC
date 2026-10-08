@@ -1,6 +1,39 @@
 
 export const cars = [
   {
+    id: 28,
+    make: "Toyota",
+    model: "Corolla SE",
+    year: 2020,
+    price: 13280,
+    mileage: 103530,
+    images: [
+      "/placeholder.svg"
+    ],
+    image: "/placeholder.svg",
+    features: [
+      "Clean Title",
+      "SE Sport Trim",
+      "A/C & Heat",
+      "Apple CarPlay & Android Auto",
+      "Backup Camera",
+      "Bluetooth",
+      "Power Windows & Locks",
+      "Cruise Control",
+      "Automatic CVT"
+    ],
+    condition: "Good",
+    description: "2020 Toyota Corolla SE with 103,530 miles. Exterior: White. Interior: Gray. VIN: JTDS4RCE9LJ012820. Reliable, fuel-efficient compact sedan with the sporty SE trim and a CVT automatic. Clean title. Text me at 919 414 4677.",
+    engineType: "4-Cylinder",
+    transmission: "Automatic CVT",
+    fuelEconomy: "31 city / 40 highway",
+    fuelType: "Gasoline",
+    bodyType: "Sedan",
+    driveType: "FWD",
+    paintColor: "White",
+    interiorColor: "Gray"
+  },
+  {
     id: 26,
     make: "Toyota",
     model: "Corolla S",
