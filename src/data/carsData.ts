@@ -5,7 +5,7 @@ export const cars = [
     make: "Toyota",
     model: "Corolla SE",
     year: 2020,
-    price: 13280,
+    price: 15900,
     mileage: 103530,
     images: [
       "/lovable-uploads/2020-corolla-1.png",
@@ -31,7 +31,7 @@ export const cars = [
       "Cruise Control",
       "Automatic CVT"
     ],
-    condition: "Good",
+    condition: "Excellent",
     description: "2020 Toyota Corolla SE with 103,530 miles. Exterior: White. Interior: Gray. VIN: JTDS4RCE9LJ012820. Reliable, fuel-efficient compact sedan with the sporty SE trim and a CVT automatic. Clean title. Text me at 919 414 4677.",
     engineType: "4-Cylinder",
     transmission: "Automatic CVT",
