@@ -17,7 +17,8 @@ export const cars = [
       "/lovable-uploads/2020-corolla-7.png",
       "/lovable-uploads/2020-corolla-8.png",
       "/lovable-uploads/2020-corolla-9.png",
-      "/lovable-uploads/2020-corolla-10.png"
+      "/lovable-uploads/2020-corolla-10.png",
+      "/lovable-uploads/2020-corolla-11.png"
     ],
     image: "/lovable-uploads/2020-corolla-1.png",
     features: [
