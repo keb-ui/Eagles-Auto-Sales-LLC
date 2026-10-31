@@ -67,7 +67,13 @@ export const cars = [
       "/lovable-uploads/2008-tundra-3.png",
       "/lovable-uploads/2008-tundra-4.png",
       "/lovable-uploads/2008-tundra-5.png",
-      "/lovable-uploads/2008-tundra-6.png"
+      "/lovable-uploads/2008-tundra-6.png",
+      "/lovable-uploads/2008-tundra-7.png",
+      "/lovable-uploads/2008-tundra-8.png",
+      "/lovable-uploads/2008-tundra-9.png",
+      "/lovable-uploads/2008-tundra-10.png",
+      "/lovable-uploads/2008-tundra-11.png",
+      "/lovable-uploads/2008-tundra-12.png"
     ],
     image: "/lovable-uploads/2008-tundra-1.png",
     features: ["Clean Title", "A/C & Heat", "Tow Package", "Power Windows & Locks", "Cruise Control", "Automatic Transmission"],
