@@ -61,8 +61,15 @@ export const cars = [
     year: 2008,
     price: 7020,
     mileage: 185979,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2008-tundra-1.png",
+      "/lovable-uploads/2008-tundra-2.png",
+      "/lovable-uploads/2008-tundra-3.png",
+      "/lovable-uploads/2008-tundra-4.png",
+      "/lovable-uploads/2008-tundra-5.png",
+      "/lovable-uploads/2008-tundra-6.png"
+    ],
+    image: "/lovable-uploads/2008-tundra-1.png",
     features: ["Clean Title", "A/C & Heat", "Tow Package", "Power Windows & Locks", "Cruise Control", "Automatic Transmission"],
     condition: "Good",
     description: "2008 Toyota Tundra with 185,979 miles. Exterior: Blue. Interior: Black. VIN: 5TBRV54108S477585. Tough, dependable full-size Toyota pickup. Text me at 919 414 4677.",
