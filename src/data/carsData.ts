@@ -12,7 +12,13 @@ export const cars = [
       "/lovable-uploads/2012-c250-2.png",
       "/lovable-uploads/2012-c250-3.png",
       "/lovable-uploads/2012-c250-4.png",
-      "/lovable-uploads/2012-c250-5.png"
+      "/lovable-uploads/2012-c250-5.png",
+      "/lovable-uploads/2012-c250-6.png",
+      "/lovable-uploads/2012-c250-7.webp",
+      "/lovable-uploads/2012-c250-8.webp",
+      "/lovable-uploads/2012-c250-9.webp",
+      "/lovable-uploads/2012-c250-10.png",
+      "/lovable-uploads/2012-c250-11.png"
     ],
     image: "/lovable-uploads/2012-c250-1.png",
     features: ["Clean Title", "A/C & Heat", "Leather Seats", "Bluetooth", "Power Windows & Locks", "Cruise Control", "Automatic Transmission"],
