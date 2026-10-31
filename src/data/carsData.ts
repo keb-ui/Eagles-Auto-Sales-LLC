@@ -7,8 +7,14 @@ export const cars = [
     year: 2012,
     price: 7125,
     mileage: 72019,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2012-c250-1.png",
+      "/lovable-uploads/2012-c250-2.png",
+      "/lovable-uploads/2012-c250-3.png",
+      "/lovable-uploads/2012-c250-4.png",
+      "/lovable-uploads/2012-c250-5.png"
+    ],
+    image: "/lovable-uploads/2012-c250-1.png",
     features: ["Clean Title", "A/C & Heat", "Leather Seats", "Bluetooth", "Power Windows & Locks", "Cruise Control", "Automatic Transmission"],
     condition: "Good",
     description: "2012 Mercedes-Benz C-Class C250 with 72,019 miles. Exterior: White. Interior: Beige. VIN: WDDGF4HB3CA667093. Low-mileage luxury sedan with a turbocharged 4-cylinder. Text me at 919 414 4677.",
