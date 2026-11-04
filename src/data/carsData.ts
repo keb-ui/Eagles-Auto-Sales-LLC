@@ -40,8 +40,15 @@ export const cars = [
     year: 2017,
     price: 9380,
     mileage: 56118,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2017-corolla-1.png",
+      "/lovable-uploads/2017-corolla-2.png",
+      "/lovable-uploads/2017-corolla-3.png",
+      "/lovable-uploads/2017-corolla-4.png",
+      "/lovable-uploads/2017-corolla-5.png",
+      "/lovable-uploads/2017-corolla-6.png"
+    ],
+    image: "/lovable-uploads/2017-corolla-1.png",
     features: ["Clean Title", "A/C & Heat", "Backup Camera", "Bluetooth", "Power Windows & Locks", "Cruise Control", "Automatic CVT"],
     condition: "Good",
     description: "2017 Toyota Corolla LE with 56,118 miles. Exterior: Silver. Interior: Gray. VIN: 2T1BURHE4HC761777. Low-mileage, reliable and fuel-efficient compact sedan. Text me at 919 414 4677.",
