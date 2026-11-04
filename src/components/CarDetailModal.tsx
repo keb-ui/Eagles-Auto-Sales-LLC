@@ -50,14 +50,6 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                         alt={`${car.year} ${car.make} ${car.model} - Image ${index + 1}`}
                         className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                       />
-                      <Badge 
-                        className={`absolute top-4 right-4 text-sm px-2 py-1 ${
-                          car.condition === 'Excellent' ? 'bg-blue-500' : 
-                          car.condition === 'Very Good' ? 'bg-blue-400' : 'bg-green-500'
-                        }`}
-                      >
-                        {car.condition}
-                      </Badge>
                     </div>
                   </CarouselItem>
                 ))}
