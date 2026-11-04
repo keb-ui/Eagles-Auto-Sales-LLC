@@ -116,7 +116,9 @@ export const cars = [
       "/lovable-uploads/2010-fit-4.png",
       "/lovable-uploads/2010-fit-5.png",
       "/lovable-uploads/2010-fit-6.png",
-      "/lovable-uploads/2010-fit-7.png"
+      "/lovable-uploads/2010-fit-7.png",
+      "/lovable-uploads/2010-fit-8.png",
+      "/lovable-uploads/2010-fit-9.png"
     ],
     image: "/lovable-uploads/2010-fit-1.png",
     features: ["Clean Title", "A/C & Heat", "Power Windows & Locks", "Cruise Control", "Fold-Flat Magic Seats", "Great Gas Mileage"],
