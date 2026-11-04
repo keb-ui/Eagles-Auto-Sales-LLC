@@ -109,8 +109,16 @@ export const cars = [
     year: 2010,
     price: 3630,
     mileage: 194157,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2010-fit-1.png",
+      "/lovable-uploads/2010-fit-2.png",
+      "/lovable-uploads/2010-fit-3.png",
+      "/lovable-uploads/2010-fit-4.png",
+      "/lovable-uploads/2010-fit-5.png",
+      "/lovable-uploads/2010-fit-6.png",
+      "/lovable-uploads/2010-fit-7.png"
+    ],
+    image: "/lovable-uploads/2010-fit-1.png",
     features: ["Clean Title", "A/C & Heat", "Power Windows & Locks", "Cruise Control", "Fold-Flat Magic Seats", "Great Gas Mileage"],
     condition: "Good",
     description: "2010 Honda Fit Sport with 194,157 miles. Exterior: Red. Interior: Black. VIN: JHMGE8H49AC040582. Affordable, fuel-efficient hatchback with tons of cargo space. Text me at 919 414 4677.",
