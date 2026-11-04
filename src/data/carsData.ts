@@ -46,7 +46,14 @@ export const cars = [
       "/lovable-uploads/2017-corolla-3.png",
       "/lovable-uploads/2017-corolla-4.png",
       "/lovable-uploads/2017-corolla-5.png",
-      "/lovable-uploads/2017-corolla-6.png"
+      "/lovable-uploads/2017-corolla-6.png",
+      "/lovable-uploads/2017-corolla-7.png",
+      "/lovable-uploads/2017-corolla-8.png",
+      "/lovable-uploads/2017-corolla-9.png",
+      "/lovable-uploads/2017-corolla-10.png",
+      "/lovable-uploads/2017-corolla-11.png",
+      "/lovable-uploads/2017-corolla-12.png",
+      "/lovable-uploads/2017-corolla-13.png"
     ],
     image: "/lovable-uploads/2017-corolla-1.png",
     features: ["Clean Title", "A/C & Heat", "Backup Camera", "Bluetooth", "Power Windows & Locks", "Cruise Control", "Automatic CVT"],
