@@ -1,6 +1,5 @@
 
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
-import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { CheckCircle, Phone, MessageCircle, Calendar, ExternalLink, Car, Gauge, Fuel, Settings } from "lucide-react";
@@ -50,14 +49,6 @@ const CarDetailModal = ({ car, isOpen, onClose }: CarDetailModalProps) => {
                         alt={`${car.year} ${car.make} ${car.model} - Image ${index + 1}`}
                         className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                       />
-                      <Badge 
-                        className={`absolute top-4 right-4 text-sm px-2 py-1 ${
-                          car.condition === 'Excellent' ? 'bg-blue-500' : 
-                          car.condition === 'Very Good' ? 'bg-blue-400' : 'bg-green-500'
-                        }`}
-                      >
-                        {car.condition}
-                      </Badge>
                     </div>
                   </CarouselItem>
                 ))}

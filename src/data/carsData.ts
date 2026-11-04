@@ -59,7 +59,7 @@ export const cars = [
     make: "Toyota",
     model: "Tundra",
     year: 2008,
-    price: 7020,
+    price: 9200,
     mileage: 185979,
     images: [
       "/lovable-uploads/2008-tundra-1.png",
