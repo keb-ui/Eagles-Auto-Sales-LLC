@@ -7,6 +7,8 @@ const FeaturedCars = () => {
   const [selectedCar, setSelectedCar] = useState<Car | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const availableCars = cars.filter((car) => car.status !== 'sold');
+
   const handleCarClick = (car: Car) => {
     setSelectedCar(car);
     setIsModalOpen(true);
@@ -27,25 +29,28 @@ const FeaturedCars = () => {
           <p className="text-lg text-gray-600">
             Every car is inspected, cleaned, and ready to drive home today
           </p>
+          <p className="text-sm font-semibold uppercase tracking-wide text-green-600 mt-3">
+            {availableCars.length} available now
+          </p>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {cars.map((car, index) => (
-            <div 
+          {availableCars.map((car, index) => (
+            <div
               key={car.id}
               className="animate-fade-in"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <CarGridCard 
-                car={car} 
-                onClick={() => handleCarClick(car)} 
+              <CarGridCard
+                car={car}
+                onClick={() => handleCarClick(car)}
               />
             </div>
           ))}
         </div>
       </div>
 
-      <CarDetailModal 
+      <CarDetailModal
         car={selectedCar}
         isOpen={isModalOpen}
         onClose={handleCloseModal}
