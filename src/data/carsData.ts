@@ -100,7 +100,8 @@ export const cars = [
     bodyType: "Truck",
     driveType: "RWD",
     paintColor: "Blue",
-    interiorColor: "Black"
+    interiorColor: "Black",
+    status: "sold"
   },
   {
     id: 29,
@@ -110,17 +111,17 @@ export const cars = [
     price: 3630,
     mileage: 194157,
     images: [
-      "/lovable-uploads/2010-fit-1.png",
-      "/lovable-uploads/2010-fit-2.png",
       "/lovable-uploads/2010-fit-3.png",
       "/lovable-uploads/2010-fit-4.png",
+      "/lovable-uploads/2010-fit-2.png",
       "/lovable-uploads/2010-fit-5.png",
       "/lovable-uploads/2010-fit-6.png",
       "/lovable-uploads/2010-fit-7.png",
       "/lovable-uploads/2010-fit-8.png",
-      "/lovable-uploads/2010-fit-9.png"
+      "/lovable-uploads/2010-fit-9.png",
+      "/lovable-uploads/2010-fit-1.png"
     ],
-    image: "/lovable-uploads/2010-fit-1.png",
+    image: "/lovable-uploads/2010-fit-3.png",
     features: ["Clean Title", "A/C & Heat", "Power Windows & Locks", "Cruise Control", "Fold-Flat Magic Seats", "Great Gas Mileage"],
     condition: "Good",
     description: "2010 Honda Fit Sport with 194,157 miles. Exterior: Red. Interior: Black. VIN: JHMGE8H49AC040582. Affordable, fuel-efficient hatchback with tons of cargo space. Text me at 919 414 4677.",
