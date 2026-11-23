@@ -27,12 +27,20 @@ describe("Researched specifications", () => {
   const specs = [
     { id: 33, engineType: "1.8L 4-Cylinder", transmission: "4-Speed Auto / 5-Speed Manual (confirm)", fuelType: "Gasoline", fuelEconomy: "26/35 MPG auto; 28/37 manual (city/hwy)" },
     { id: 34, engineType: "1.8L 4-Cylinder", transmission: "4-Speed Auto / 5-Speed Manual (confirm)", fuelType: "Gasoline", fuelEconomy: "25/34 MPG auto; 28/36 manual (city/hwy)" },
-    { id: 35, engineType: "V6 or V8 — VIN confirmation pending", transmission: "Automatic", fuelType: "Gasoline", fuelEconomy: "Varies by engine and drivetrain — confirmation pending" },
-    { id: 36, engineType: "2.4L 4-Cylinder", transmission: "5-Speed Automatic", fuelType: "Gasoline", fuelEconomy: "20/27 MPG 2WD; 19/26 4WD (city/hwy)" },
+    { id: 35, engineType: "5.3L V8", transmission: "6-Speed Automatic", fuelType: "Gasoline / E85 Flex Fuel", fuelEconomy: "16 city / 22 highway MPG (gasoline)", driveType: "4WD" },
+    { id: 36, engineType: "2.4L 4-Cylinder", transmission: "5-Speed Automatic", fuelType: "Gasoline", fuelEconomy: "19 city / 26 highway MPG", driveType: "4WD" },
   ];
   for (const expected of specs) {
     test(`vehicle ${expected.id} shows researched specs without guessing its configuration`, () => {
       expect(cars.find(car => car.id === expected.id)).toMatchObject(expected);
+    });
+  }
+});
+
+describe("Supplied vehicle VINs", () => {
+  for (const [id, vin] of [[33, "1NXBR32E15Z526769"], [34, "1NXBR38E34Z234577"], [35, "1GCVKREC5FZ244254"], [36, "5J6RE48387L017694"]]) {
+    test(`vehicle ${id} retains VIN ${vin}`, () => {
+      expect(cars.find(car => car.id === id)?.description).toContain(`VIN: ${vin}.`);
     });
   }
 });
