@@ -108,8 +108,15 @@ export const cars = [
     year: 2007,
     price: 5805,
     mileage: 157725,
-    images: ["/placeholder.svg"],
-    image: "/placeholder.svg",
+    images: [
+      "/lovable-uploads/2007-cr-v-1.png",
+      "/lovable-uploads/2007-cr-v-2.png",
+      "/lovable-uploads/2007-cr-v-3.png",
+      "/lovable-uploads/2007-cr-v-4.png",
+      "/lovable-uploads/2007-cr-v-5.png",
+      "/lovable-uploads/2007-cr-v-6.png"
+    ],
+    image: "/lovable-uploads/2007-cr-v-1.png",
     features: [],
     condition: "3.5",
     description: "2007 Honda CR-V LX with 157,725 miles. Exterior: Green. Interior: Beige. VIN: 5J6RE48387L017694. 2.4L 4-cylinder with 4-wheel drive.",
