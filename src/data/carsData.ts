@@ -114,7 +114,12 @@ export const cars = [
       "/lovable-uploads/2007-cr-v-3.png",
       "/lovable-uploads/2007-cr-v-4.png",
       "/lovable-uploads/2007-cr-v-5.png",
-      "/lovable-uploads/2007-cr-v-6.png"
+      "/lovable-uploads/2007-cr-v-6.png",
+      "/lovable-uploads/2007-cr-v-7.png",
+      "/lovable-uploads/2007-cr-v-8.png",
+      "/lovable-uploads/2007-cr-v-9.png",
+      "/lovable-uploads/2007-cr-v-10.png",
+      "/lovable-uploads/2007-cr-v-11.png"
     ],
     image: "/lovable-uploads/2007-cr-v-1.png",
     features: [],
