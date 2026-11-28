@@ -122,7 +122,7 @@ export const cars = [
       "/lovable-uploads/2007-cr-v-11.png"
     ],
     image: "/lovable-uploads/2007-cr-v-1.png",
-    features: [],
+    features: ["JVC Touch-Screen Stereo", "Dual-Zone Climate Control", "Automatic Transmission", "4-Wheel Drive", "Fold-Down Rear Seats"],
     condition: "3.5",
     description: "2007 Honda CR-V LX with 157,725 miles. Exterior: Green. Interior: Beige. VIN: 5J6RE48387L017694. 2.4L 4-cylinder with 4-wheel drive.",
     engineType: "2.4L 4-Cylinder",

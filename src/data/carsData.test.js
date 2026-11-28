@@ -44,3 +44,10 @@ describe("Supplied vehicle VINs", () => {
     });
   }
 });
+
+describe("CR-V LX approved features", () => {
+  const features = ["JVC Touch-Screen Stereo", "Dual-Zone Climate Control", "Automatic Transmission", "4-Wheel Drive", "Fold-Down Rear Seats"];
+  test("vehicle 36 lists the features confirmed from its photos", () => {
+    expect(cars.find(car => car.id === 36)?.features).toEqual(features);
+  });
+});
